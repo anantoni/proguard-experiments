@@ -15,6 +15,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Create user list
+        String listType = "java.util.LinkedList";
+        UserRepository userRepo = new UserRepository(listType);
+        userRepo.addUser("randomuser1");
+        userRepo.addUser("randomuser2");
+        String users = userRepo.getUsers();
+
+        //Screen view
         try {
             Class textViewClass = Class.forName("android.widget.TextView");
             Constructor constr = textViewClass.getConstructor(Context.class);
@@ -22,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             Method setMeth = textViewClass.getMethod("setText", CharSequence.class);
             Log.d("MainActivity", setMeth.getName());
             Object textViewObj = (TextView) constr.newInstance(this);
-            setMeth.invoke((TextView) textViewObj, textViewClass.getName());
+            setMeth.invoke((TextView) textViewObj, users);
             setContentView((TextView) textViewObj);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
