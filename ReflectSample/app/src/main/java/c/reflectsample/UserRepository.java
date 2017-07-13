@@ -14,8 +14,7 @@ public class UserRepository {
     public UserRepository(String listType) {
         try {
             listT = listType;
-            Class listClass = Class.forName(listT);
-            Constructor listConstructor = listClass.getConstructor();
+            Constructor listConstructor = Class.forName(listT).getConstructor();
             userHolder = (List) listConstructor.newInstance();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

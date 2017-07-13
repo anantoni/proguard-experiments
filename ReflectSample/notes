@@ -1,2 +1,3 @@
 apk-debug size without proguard enabled:    1.6MB
-apk-debug size with proguard enabled:       895KB
+apk-debug size with proguard enabled !opt:  895KB
+apk-debug size with proguard enabled +opt:  875KB
