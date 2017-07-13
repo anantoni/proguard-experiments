@@ -1,0 +1,184 @@
+Initializing...
+Note: the configuration refers to the unknown class 'UserRepository'
+      Maybe you meant the fully qualified name 'c.reflectsample.UserRepository'?
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Ignoring unused library classes...
+  Original number of library classes: 4237
+  Final number of library classes:    973
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/home/chris/rthesis/ReflectSample/app/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1727
+  Final number of program classes:    718
+Optimizing...
+  Number of finalized classes:                 356
+  Number of unboxed enum classes:              4
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                276
+  Number of staticized methods:                118
+  Number of finalized methods:                 2423
+  Number of removed method parameters:         176
+  Number of inlined constant parameters:       67
+  Number of inlined constant return values:    34
+  Number of inlined short method calls:        560
+  Number of inlined unique method calls:       1006
+  Number of inlined tail recursion calls:      8
+  Number of merged code blocks:                31
+  Number of variable peephole optimizations:   3264
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      17
+  Number of branch peephole optimizations:     875
+  Number of string peephole optimizations:     219
+  Number of simplified instructions:           336
+  Number of removed instructions:              1528
+  Number of removed local variables:           106
+  Number of removed exception blocks:          22
+  Number of optimized local variable frames:   1111
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 718
+  Final number of program classes:    658
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                1
+  Number of staticized methods:                2
+  Number of finalized methods:                 18
+  Number of removed method parameters:         96
+  Number of inlined constant parameters:       49
+  Number of inlined constant return values:    22
+  Number of inlined short method calls:        6
+  Number of inlined unique method calls:       9
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                1
+  Number of variable peephole optimizations:   272
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     33
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           116
+  Number of removed instructions:              2965
+  Number of removed local variables:           52
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   59
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 658
+  Final number of program classes:    658
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                1
+  Number of finalized methods:                 2
+  Number of removed method parameters:         28
+  Number of inlined constant parameters:       8
+  Number of inlined constant return values:    22
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       4
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   50
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     4
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           1
+  Number of removed instructions:              276
+  Number of removed local variables:           1
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   7
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 658
+  Final number of program classes:    658
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 1
+  Number of removed method parameters:         3
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   11
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           0
+  Number of removed instructions:              33
+  Number of removed local variables:           1
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 658
+  Final number of program classes:    658
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   7
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           0
+  Number of removed instructions:              0
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 658
+  Final number of program classes:    658
+Obfuscating...
+Printing mapping to [/home/chris/rthesis/ReflectSample/app/build/outputs/mapping/debug/mapping.txt]...
+Writing output...
+
