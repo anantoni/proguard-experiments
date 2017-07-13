@@ -2,20 +2,20 @@ package c.reflectsample;
 
 import android.text.TextUtils;
 
-import java.util.List;
+import java.util.Collection;
 import java.lang.*;
 import java.lang.reflect.*;
 
 public class UserRepository {
 
-    private List<String> userHolder;
+    private Collection<String> userHolder;
     private String listT;
 
     public UserRepository(String listType) {
         try {
             listT = listType;
             Constructor listConstructor = Class.forName(listT).getConstructor();
-            userHolder = (List) listConstructor.newInstance();
+            userHolder = (Collection) listConstructor.newInstance();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (NoSuchMethodException e) {
