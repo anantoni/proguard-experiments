@@ -1,0 +1,55 @@
+buildscript {
+    repositories {
+        mavenCentral()
+jcenter()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url 'https://jitpack.io' }
+    mavenCentral()
+jcenter()
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '21.1.2'
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 25
+        return
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            debuggable false
+        }
+    }
+    productFlavors {
+    }
+}
+
+
+dependencies {
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.joanzapata.android:android-iconify:1.0.11'
+    compile 'com.larswerkman:HoloColorPicker:1.5'
+    compile 'com.kobakei:ratethisapp:0.0.4'
+    compile 'de.cketti.library.changelog:ckchangelog:1.2.2'
+    compile 'com.sothree.slidinguppanel:library:3.3.1'
+    compile 'com.github.guardian:Option:e933c3a31d'
+    compile 'net.rdrei.android.dirchooser:library:3.2@aar'
+    compile 'com.android.support:support-vector-drawable:25.1.0'
+}

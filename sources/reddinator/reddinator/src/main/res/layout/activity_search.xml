@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/appview">
+
+    <LinearLayout
+        android:id="@+id/searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#CEE3F8">
+        <RelativeLayout
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <IconTextView
+                android:id="@+id/searchbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/search"
+                android:text="@string/fa_search"
+                android:shadowColor="#22000000"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="3"
+                android:textSize="28sp"
+                android:textColor="#5F99CF" />
+
+            <EditText
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/searchbutton"
+                android:layout_toStartOf="@id/searchbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:hint="@string/search"
+                android:id="@+id/query" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/limit_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limit_to"
+                android:id="@+id/limit_sr" />
+
+            <AutoCompleteTextView
+                android:id="@+id/limit_sr_subreddit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:hint="@string/subreddit"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sort_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dip"
+                android:paddingBottom="0dip"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:id="@+id/sort" />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dip"
+                android:paddingBottom="0dip"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:id="@+id/time" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/applistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- internal resources: not translated -->
+    <string name="on_click_pref" translatable="false">onclickpref</string>
+    <string name="logo_open_pref" translatable="false">logoopenpref</string>
+    <string name="num_item_load_pref" translatable="false">numitemloadpref</string>
+    <string name="app_reload_pref" translatable="false">appreloadpref</string>
+    <string name="filter_duplicates_pref" translatable="false">filterduplicatespref</string>
+    <string name="refresh_rate_pref" translatable="false">refreshrate</string>
+    <string name="widget_theme_pref" translatable="false">widgetthemepref</string>
+    <string name="title_font_pref" translatable="false">titlefontpref</string>
+    <string name="comments_layout_pref" translatable="false">commentslayoutpref</string>
+    <string name="comments_border_pref" translatable="false">commentsborderpref</string>
+    <string name="title_color_pref" translatable="false">titlecolorpref</string>
+    <string name="comments_first_pref" translatable="false">commentsfirstpref</string>
+    <string name="comments_webview_pref" translatable="false">commentswebviewpref</string>
+    <string name="comment_font_pref" translatable="false">commentfontpref</string>
+    <string name="content_font_pref" translatable="false">contentfontpref</string>
+    <string name="comment_editor_pref" translatable="false">commenteditorpref</string>
+    <string name="preload_pref" translatable="false">preloadpref</string>
+    <string name="reddit_mobile_site_pref" translatable="false">redditmobilepref</string>
+    <string name="reddit_mobile_site_comments_pref" translatable="false">mobilecommentspref</string>
+    <string name="background_mail_pref" translatable="false">background_mail_pref</string>
+    <string name="mail_check_pref" translatable="false">mail_check_pref</string>
+    <string name="reddit_content_font_pref" translatable="false">reddit_content_font_pref</string>
+    <string name="app_theme_pref" translatable="false">appthemepref</string>
+    <string name="back_button_pref" translatable="false">backbuttonpref</string>
+    <string name="fa_search" translatable="false">{fa-search}</string>
+    <string name="fa_list" translatable="false">{fa-list}</string>
+    <string name="fa_plus_square" translatable="false">{fa-plus-square}</string>
+    <string name="fa_trash" translatable="false">{fa-trash}</string>
+    <string name="fa_filter" translatable="false">{fa-filter}</string>
+    <string name="fa_pencil" translatable="false">{fa-pencil}</string>
+    <string name="fa_plus" translatable="false">{fa-plus}</string>
+    <string name="fa_wrench" translatable="false">{fa-wrench}</string>
+    <string name="fa_refresh" translatable="false">{fa-refresh}</string>
+    <string name="fa_error" translatable="false">{fa-exclamation-triangle}</string>
+    <string name="fa_caret" translatable="false">{fa-caret-down}</string>
+    <string name="fa_arrow_up" translatable="false">{fa-arrow-up}</string>
+    <string name="fa_arrow_down" translatable="false">{fa-arrow-down}</string>
+    <string name="fa_star" translatable="false">{fa_star}</string>
+    <string name="fa_comment" translatable="false">{fa_comment}</string>
+    <string name="fa_lock" translatable="false">{fa_lock}</string>
+    <string name="fa_file_text" translatable="false">{fa_file_text}</string>
+    <string name="fa_share" translatable="false">{fa-share}</string>
+    <string name="fa_globe" translatable="false">{fa-globe}</string>
+    <string name="fa_random" translatable="false">{fa-random}</string>
+    <string name="fa_eye" translatable="false">{fa-eye}</string>
+    <string name="nsfw_flag" translatable="false">[NSFW]</string>
+    <string name="reddit_domain" translatable="false">reddit.com</string>
+    <!-- end internal resources -->
+
+    <string name="app_name">Reddinator</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_popular">Loading Popular…</string>
+    <string name="load_more">Load more…</string>
+    <string name="search">Search</string>
+    <string name="configure">Configure</string>
+    <string name="refresh">Refresh</string>
+    <string name="error">Error</string>
+    <string name="logo">logo</string>
+    <string name="loading_img">loading image</string>
+    <string name="img">image</string>
+    <string name="loading_pop_desc">loading popular</string>
+    <string name="sort_hot">Sort:  hot</string>
+    <string name="thumbnails">Thumbnails</string>
+    <string name="icon">Icon</string>
+    <string name="add">Add</string>
+    <string name="my_subreddits">My Subreddits</string>
+    <string name="sr_import">Import</string>
+    <string name="username">Username</string>
+    <string name="replace_current_list">Replace current list</string>
+    <string name="share">Share</string>
+    <string name="feed_prefs">Feed Preferences</string>
+    <string name="widget_theme">Widget Theme</string>
+    <string name="menu_theme_manager">Theme Manager</string>
+    <string name="entries_not_empty">Entries cannot be empty!</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_all">View All</string>
+    <string name="preferences">Preferences</string>
+    <string name="load_more_replies">Load more replies</string>
+    <string name="open_link">Open Link</string>
+    <string name="upvote">Upvote</string>
+    <string name="downvote">Downvote</string>
+    <string name="inbox">Inbox</string>
+    <string name="my_reddit">My Reddit</string>
+    <string name="title_activity_themes">Custom Themes</string>
+    <string name="title_activity_theme_editor">Edit Theme</string>
+    <string name="color_preview">Color preview</string>
+    <string name="submit">Submit</string>
+    <string name="display_name">Display Name</string>
+    <string name="description">Description</string>
+    <string name="color">Color</string>
+    <string name="color_hint">Hex Color (eg. #FFFFFF)</string>
+    <string name="visibility">Visibility</string>
+    <string name="weighting">Weighting</string>
+    <string name="remove">Remove</string>
+    <string name="save">Save</string>
+    <string name="login">Login</string>
+    <string name="create_a_multi">Create A Multi</string>
+    <string name="create">Create</string>
+    <string name="name">Name</string>
+    <string name="about_open_source">Reddinator is proudly open-source software. Come and contribute on Github</string>
+    <string name="about_donate">Programing is thirsty work, buy me a beer to help maintain the app.</string>
+    <string name="about_r_reddinator">Stay up to date with the latest news at:\nhttps://www.reddit.com/r/reddinator/</string>
+    <string name="about_beta_program">Join the beta program:\nhttps://play.google.com/apps/testing/au.com.wallaceit.reddinator</string>
+    <string name="donate_paypal">Donate with Paypal</string>
+    <string name="about_give_gold">If you feel my effort deserves gold</string>
+    <string name="give_gold">Give Reddit Gold</string>
+    <string name="about_text"><![CDATA[Reddinator is a feature packed, customisable and open-source app & widget for android. This app is a token of my appreciation for Reddit and its community, I hope you enjoy! Reddinator will always be free, but contributions using the methods below are much appreciated.]]></string>
+    <string name="about_thankyou">Thanks for using Reddinator!</string>
+    <string name="subreddit">Subreddit</string>
+    <string name="title">Title</string>
+    <string name="characters_left">%d characters left</string>
+    <string name="characters_left_300">300 characters left</string>
+    <string name="characters_left_100">100 characters left</string>
+    <string name="text">Text</string>
+    <string name="link">Link</string>
+    <string name="about">About</string>
+    <string name="transparency">Transparency</string>
+    <string name="github">Github</string>
+    <string name="select_color">Select Color</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="filter_subreddits">Filter Subreddits</string>
+    <string name="filter_subreddits_select">Select subreddits to exclude</string>
+    <string name="rename">Rename</string>
+    <string name="saved_items">Saved Items</string>
+    <string name="rate_reddinator">Rate Reddinator</string>
+    <string name="nothing_more_here">There\'s nothing more here</string>
+    <string name="reddit_login_failed">Login to Reddit failed:</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="connecting_reddit_account">Connecting to your reddit account</string>
+    <string name="loading_subreddits">Loading your subreddits…</string>
+    <string name="loading_multis">Loading your multis…</string>
+    <string name="account_sub_load_failed">Failed to load subscriptions:</string>
+    <string name="account_disconnected">Account Disconnected</string>
+    <string name="load_link_error">Could not load link</string>
+    <string name="whoa">Whoa!</string>
+    <string name="no_subreddit_error">You\'ll need to select a subreddit first</string>
+    <string name="no_recipient_error">You\'ll need to provide a recipient username first</string>
+    <string name="no_title_error">You\'ll need a title first</string>
+    <string name="no_subject_error">You\'ll need a subject first</string>
+    <string name="title_too_long_error">Such title, please reduce to 300 character or less</string>
+    <string name="subject_too_long_error">Such subject, please reduce to 100 character or less</string>
+    <string name="no_content_error">You\'ll need some content first</string>
+    <string name="no_message_text_error">You\'ll need some message text first</string>
+    <string name="sub_doesnt_look_valid">That subreddit does not look valid</string>
+    <string name="submitting">Submitting…</string>
+    <string name="cannot_open_post_error">Could not open submitted post:</string>
+    <string name="enter_multi_name_error">Please enter a name for the multi</string>
+    <string name="multi_open_error">Error opening the multi</string>
+    <string name="my_multis">My Multis</string>
+    <string name="sort_label">Sort:</string>
+    <string name="sub_data_error">Error reading subreddit data</string>
+    <string name="select_sort">Select sort</string>
+    <string name="thumbnails_on_top">Thumbnails On Top</string>
+    <string name="hide_post_info">Hide Post Info</string>
+    <string name="close">Close</string>
+    <string name="use_app_theme">Use App theme</string>
+    <string name="select_widget_theme">Select Widget Theme</string>
+    <string name="refreshing_subreddits">Refreshing Subreddits</string>
+    <string name="one_moment">One moment…</string>
+    <string name="refreshing_multis">Refreshing Multis</string>
+    <string name="confirm_unsubscribe">Are you sure you want to unsubscribe from %s?</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="delete_multi">Delete Multi</string>
+    <string name="delete_multi_message">Are you sure you want to delete this multi from your account?</string>
+    <string name="multi_name_hint">new multi name</string>
+    <string name="rename_multi">Rename Multi</string>
+    <string name="subreddits">Subreddits</string>
+    <string name="settings">Settings</string>
+    <string name="sub_name_error">Please enter a subreddit name</string>
+    <string name="subscribing">Subscribing…</string>
+    <string name="unsubscribing">Unsubscribing…</string>
+    <string name="copying_multi">Copying Multi…</string>
+    <string name="creating_multi">Creating Multi…</string>
+    <string name="updating_multi">Updating Multi…</string>
+    <string name="deleting_multi">Deleting Multi…</string>
+    <string name="my_awesome_theme">My Awesome Theme</string>
+    <string name="theme_name">Theme Name</string>
+    <string name="pick_basic_color">Pick a basic color</string>
+    <string name="choose_template">Choose A Template to Start</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete_theme">Delete Theme</string>
+    <string name="delete_theme_message">Are you sure you want to delete this theme?</string>
+    <string name="no_query_message">Please enter something to search for</string>
+    <string name="searching">Searching…</string>
+    <string name="no_subreddits_found">No subreddits found</string>
+    <string name="subreddit_load_failed">Error loading subreddits:</string>
+    <string name="saving">Saving…</string>
+    <string name="share_with">Share with…</string>
+    <string name="content">Content</string>
+    <string name="reddit_page">Reddit Page</string>
+    <string name="share_url">Share Link</string>
+    <string name="both">Both</string>
+    <string name="voting">Voting…</string>
+    <string name="reddit">Reddit</string>
+    <string name="new_messages_text">Click to view reddit messages</string>
+    <string name="version_label">version %s</string>
+    <string name="deleting">Deleting…</string>
+    <string name="no_comments_here">No comments here</string>
+    <string name="error_loading_comments">Error loading comments</string>
+    <string name="share_with_reddit">Share with Reddit</string>
+    <plurals name="new_messages">
+        <item quantity="one">%d New Message</item>
+        <item quantity="other">%d New Messages</item>
+    </plurals>
+    <!-- theme label strings -->
+    <string name="tl_widget_background_color">Widget Background</string>
+    <string name="tl_background_color">App Background</string>
+    <string name="tl_widget_header_color">Widget Header</string>
+    <string name="tl_header_color">App Tabs/Headers</string>
+    <string name="tl_header_text">Header Text</string>
+    <string name="tl_header_color_2">Secondary Header Color</string>
+    <string name="tl_header_text_2">Secondary Header Text</string>
+    <string name="tl_tab_indicator">Tab Indicator</string>
+    <string name="tl_headline_text">Post Title Text</string>
+    <string name="tl_comment_text">Comments Text</string>
+    <string name="tl_load_text">Load Button Text</string>
+    <string name="tl_comments_border">Comments Border</string>
+    <string name="tl_divider">List Divider</string>
+    <string name="tl_default_icon">Default Icon</string>
+    <string name="tl_source_text">Article Source Text</string>
+    <string name="tl_votes_text">Votes Text</string>
+    <string name="tl_votes_icon">Votes Icon</string>
+    <string name="tl_comments_count">Comments Count Text</string>
+    <string name="tl_comments_icon">Comments Count Icon</string>
+    <string name="tl_icon_shadow">Icon Shadow</string>
+    <!-- preference label strings -->
+    <string name="on_click_pref_title">Click Action</string>
+    <string name="on_click_pref_summary">When I click on a widget post…</string>
+    <string name="refresh_rate_pref_title">Auto Refresh</string>
+    <string name="refresh_rate_pref_summary">Refresh the widget feed every…</string>
+    <string name="app_reload_pref_title">App Feed Refresh</string>
+    <string name="app_reload_pref_summary">Refresh the App feed when opening</string>
+    <string name="num_item_load_pref_title">Initial Items</string>
+    <string name="num_item_load_pref_summary">Initially load this many items…</string>
+    <string name="app_theme_pref_title">App Theme</string>
+    <string name="app_theme_pref_summary">App &amp; default widget theme</string>
+    <string name="app_theme_pref_dialog_title">Choose the app theme</string>
+    <string name="edit_theme_pref_title">Edit Theme</string>
+    <string name="edit_theme_pref_summary">Edit the current theme</string>
+    <string name="theme_manager_pref_title">Theme Manager</string>
+    <string name="theme_manager_pref_summary">Create &amp; edit custom themes</string>
+    <string name="title_font_pref_title">Item Title Size</string>
+    <string name="title_font_pref_summary">Font size for item titles</string>
+    <string name="comments_first_pref_title">Show Comments First</string>
+    <string name="comments_first_pref_summary">Show the comments tab first</string>
+    <string name="comments_webview_pref_title">Comments View</string>
+    <string name="comments_webview_pref_summary_off">Use native comments view</string>
+    <string name="comments_webview_pref_summary_on">Use mobile reddit comments view</string>
+    <string name="preload_pref_title">Preload Content</string>
+    <string name="preload_pref_summary">Preload content that isn\'t shown first</string>
+    <string name="back_button_pref_title">Actionbar Back Action</string>
+    <string name="back_button_pref_summary_on">Navigate backward \n(like the in-build back button)</string>
+    <string name="back_button_pref_summary_off">Exit to the last screen</string>
+    <string name="comment_font_pref_title">Comments Font Size</string>
+    <string name="comment_font_pref_summary">Default font size for the comments view</string>
+    <string name="reddit_mobile_site_pref_title">Reddit links mobile site</string>
+    <string name="reddit_mobile_site_pref_summary_off">Using legacy mobile site (i.reddit.com)</string>
+    <string name="reddit_mobile_site_pref_summary_on">Using beta mobile site (m.reddit.com)</string>
+    <string name="reddit_mobile_site_comments_pref_title">Content/Comments mobile site</string>
+    <string name="content_font_pref_title">Content Font Size</string>
+    <string name="content_font_pref_summary">Default font size for the content web view</string>
+    <string name="reddit_content_font_pref_title">Reddit Mobile Font Size</string>
+    <string name="reddit_content_font_pref_summary">Default font size for mobile reddit webviews</string>
+    <string name="mail_check_pref_title">Mail Indicator</string>
+    <string name="mail_check_pref_summary">When actively using Reddinator,\nupdate the new mail indicator after every…</string>
+    <string name="background_mail_pref_title">Background Mail Check</string>
+    <string name="background_mail_pref_summary">Check &amp; notify me of new mail every…</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_summary">Remove my saved account and session data</string>
+    <string name="feed_filter_duplicates_title">Filter Duplicate Posts</string>
+    <string name="feed_filter_duplicates_summary">Filter posts shown on previous pages</string>
+    <string name="post_options">Post Options</string>
+    <string name="clear_post_filter_title">Clear Post Filters</string>
+    <string name="clear_post_filter_summary">Clear %1$d filtered/hidden posts</string>
+    <string name="clear_post_filter_message">Hidden post filters cleared</string>
+    <string name="logo_open_pref_title">Open app on logo click</string>
+    <string name="logo_open_pref_summary">Open the app when clicking on Snoo</string>
+    <string name="item_option_hide_post">Hide this post</string>
+    <string name="item_option_save_post">Save this post</string>
+    <string name="item_option_open_post">Open content in browser</string>
+    <string name="item_option_open_comments">Open comments in browser</string>
+    <string name="item_option_view_subreddit">View /r/%1$s</string>
+    <string name="item_option_open_subreddit">Open /r/%1$s</string>
+    <string name="item_option_view_domain">View all from %1$s</string>
+    <string name="view_domain_posts">View Domain Posts</string>
+    <string name="enter_valid_domain">Please enter a valid domain name</string>
+    <string name="view_domain">View Domain</string>
+    <string name="post_saved">Post Saved</string>
+    <string name="overview">Overview</string>
+    <string name="submitted">Submitted</string>
+    <string name="comments">Comments</string>
+    <string name="upvoted">Upvoted</string>
+    <string name="downvoted">Downvoted</string>
+    <string name="hidden">Hidden</string>
+    <string name="saved">Saved</string>
+    <string name="gilded">Gilded</string>
+    <string name="view_on_reddit">View on Reddit</string>
+    <string name="unread">Unread</string>
+    <string name="sent">Sent</string>
+    <string name="subject">Subject</string>
+    <string name="message_sent">Message Sent</string>
+    <string name="custom_hex_color">Custom Hex Color</string>
+    <string name="send_message">Send Message</string>
+    <string name="messages">Messages</string>
+    <string name="password">Password</string>
+    <string name="limit_to">Limit to</string>
+    <string name="clear_post_filter_summary_disabled">You\'re logged in, use your account to unhide</string>
+    <string name="data_error">Error opening post data, please reload feed</string>
+    <string name="view_comments">View Comments {fa-comments}</string>
+    <string name="credits">Credits</string>
+    <string name="changelog">Changelog</string>
+    <string name="karma" translatable="false">Karma</string>
+    <string name="sidebar" translatable="false">Sidebar</string>
+    <plurals name="num_comments">
+        <item quantity="one">%d comment</item>
+        <item quantity="other">%d comments</item>
+    </plurals>
+    <plurals name="vote_details">
+        <item quantity="one">%1$d point (%2$d%% upvoted)</item>
+        <item quantity="other">%1$d points (%2$d%% upvoted)</item>
+    </plurals>
+    <string name="submitted_details">submitted %1$s by &lt;a href="https://www.reddit.com/u/%2$s/"&gt;/u/%2$s&lt;/a&gt;</string>
+    <string name="loading_sidebar">Loading sidebar…</string>
+    <string name="view_all_comments">View All {fa-comments}</string>
+    <string name="open_context_link">Open Link {fa-globe}</string>
+    <string name="error_loading_feed">Error loading feed</string>
+    <string name="post_text">Post Text</string>
+    <string name="image_previews">Image Previews</string>
+    <string name="app_feed_prefs">App Feed Preferences</string>
+    <string name="widget_feed_prefs">Widget Feed Preferences</string>
+    <string name="comments_layout_pref_title">Comments Layout</string>
+    <string name="comments_border_pref_title">Comments Border Style</string>
+    <string name="comments_layout_pref_summary">Change the layout of the comments feed</string>
+    <string name="comments_border_pref_summary">Select color pattern for nested borders</string>
+    <string name="tl_comments_text">Comments Text</string>
+    <string name="share_theme">Share Theme</string>
+    <string name="share_theme_message">Provide a short description of your theme and click OK to share your theme with /r/reddinator.</string>
+    <string name="download_themes">Download Themes</string>
+    <string name="theme_preview">Theme Preview</string>
+    <string name="theme_preview_clear_message">You are currently previewing the theme %1$s.\nClick cancel or install to exit from preview mode. Press the back button to keep previewing.</string>
+    <string name="install">Install</string>
+    <string name="preview">Preview</string>
+    <string name="install_theme_title">Install Theme</string>
+    <string name="install_theme_message">This post is an installable theme.\nWould you like to preview or install the theme?</string>
+    <string name="theme_load_error">Error loading theme</string>
+    <string name="theme_install_success">The theme has been successfully installed</string>
+    <string name="theme_preview_applied_message">The theme has been applied in preview mode and will override all other theme preferences.\nTo exit from preview mode, go to the theme manager from preferences.</string>
+    <string name="view_comments_noicon">View Comments</string>
+    <string name="default_front_page">Default Front Page</string>
+    <string name="sub_reddinator">Subscribe to /r/reddinator</string>
+    <string name="sub_reddinator_message">Subscribe to /r/reddinator to get the latest news, install user created themes, submit feedback and request new features?</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="comment_editor_pref_title">Use Markdown Editor (beta)</string>
+    <string name="comment_editor_pref_summary">Use markdown editor for comments &amp; mesages</string>
+    <string name="random_subreddit">Random subreddit</string>
+    <string name="clear_cookies_title">Clear Cookies</string>
+    <string name="clear_cookies_summary">Clear all web view cookies</string>
+    <string name="cookies_cleared">Cookies have been successfully cleared</string>
+    <string name="item_option_share_post">Share link or comments</string>
+    <string name="clear_image_cache_title">Clear Image Cache</string>
+    <string name="clear_image_cache_summary"><![CDATA[Clear thumbnail & image cache (%1$s)]]></string>
+    <string name="image_cache_cleared">Image cache has been successfully cleared</string>
+    <string name="clear_feed_data_title">Clear Feed Data</string>
+    <string name="clear_feed_data_summary"><![CDATA[Clear feed data (%1$s)]]></string>
+    <string name="feed_data_cleared">Feed data has been successfully cleared</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="view">View</string>
+    <string name="archived_post_error">This post is archived and\ncannot be voted or commented on</string>
+    <string name="browse">Browse</string>
+    <string name="list_widget">List Widget</string>
+    <string name="stack_widget">Stack Widget (BETA!)</string>
+    <string name="copy_multi">Copy multireddit</string>
+    <string name="copy_multi_success">Successfully copied multi to your account</string>
+    <string name="open_theme">Preview or install theme</string>
+    <string name="reddit_server_error_message">\nThis may be a Reddit server issue, would you like to view the Reddit status page to find out?</string>
+    <string name="download_ask_pref_title">Ask for download location</string>
+    <string name="download_ask_pref_summary">Ask for a download location each time</string>
+    <string name="download_location_title">Download Location</string>
+    <string name="updating_filter">Updating Filter</string>
+    <string name="loading_filters">Loading filters…</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="sync_data_summary"><![CDATA[Refresh subreddits, multis & filters]]></string>
+    <string name="subscribed">Subscribed</string>
+    <string name="download_nativeui_title">Show In Downloads</string>
+    <string name="download_nativeui_summary">Show completed in the \"downloads\" app</string>
+    <string name="download_notify_complete_title">Completed Notification</string>
+    <string name="download_notify_complete_summary">Show notification for completed downloads</string>
+</resources>

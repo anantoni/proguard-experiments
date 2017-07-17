@@ -1,0 +1,200 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Widgets">
+
+			<ListPreference
+                android:key="@string/on_click_pref"
+                android:title="@string/on_click_pref_title"
+                android:defaultValue="1"
+                android:summary="@string/on_click_pref_summary"
+                android:entries="@array/onclick_list_preference"
+                android:entryValues="@array/onclick_values_list_preference"
+                android:dialogTitle="@string/on_click_pref_summary" />
+            <ListPreference
+                android:key="@string/refresh_rate_pref"
+                android:title="@string/refresh_rate_pref_title"
+                android:defaultValue="43200000"
+                android:summary="@string/refresh_rate_pref_summary"
+                android:entries="@array/widget_refresh_list"
+                android:entryValues="@array/widget_refresh_values"
+                android:dialogTitle="@string/refresh_rate_pref_summary" />
+            <CheckBoxPreference
+                android:key="@string/logo_open_pref"
+                android:title="@string/logo_open_pref_title"
+                android:defaultValue="true"
+                android:summary="@string/logo_open_pref_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feeds &amp; Filters">
+
+            <CheckBoxPreference
+                android:key="@string/app_reload_pref"
+                android:title="@string/app_reload_pref_title"
+                android:defaultValue="false"
+                android:summary="@string/app_reload_pref_summary" />
+
+			<ListPreference
+                android:key="@string/num_item_load_pref"
+                android:title="@string/num_item_load_pref_title"
+                android:defaultValue="25"
+                android:summary="@string/num_item_load_pref_summary"
+                android:entries="@array/reddit_item_load"
+                android:entryValues="@array/reddit_item_load"
+                android:dialogTitle="@string/num_item_load_pref_summary" />
+
+            <CheckBoxPreference
+                android:key="@string/filter_duplicates_pref"
+                android:title="@string/feed_filter_duplicates_title"
+                android:defaultValue="true"
+                android:summary="@string/feed_filter_duplicates_summary" />
+
+            <Preference android:title="@string/clear_post_filter_title"
+                android:key="clear_post_filter"
+                android:summary="@string/clear_post_filter_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="appearance" android:title="Appearance">
+
+        <ListPreference
+            android:key="@string/app_theme_pref"
+            android:title="@string/app_theme_pref_title"
+            android:defaultValue="reddit_classic"
+            android:summary="@string/app_theme_pref_summary"
+            android:dialogTitle="@string/app_theme_pref_dialog_title" />
+
+        <Preference
+            android:title="@string/edit_theme_pref_title"
+            android:key="theme_editor_button"
+            android:summary="@string/edit_theme_pref_summary"/>
+
+        <Preference
+            android:title="@string/theme_manager_pref_title"
+            android:key="theme_manager_button"
+            android:summary="@string/theme_manager_pref_summary"/>
+
+        <ListPreference
+            android:key="@string/title_font_pref"
+            android:title="@string/title_font_pref_title"
+            android:defaultValue="16"
+            android:summary="@string/title_font_pref_summary"
+            android:entries="@array/widget_fontsize_preference"
+            android:entryValues="@array/widget_fontsize_preference"
+            android:dialogTitle="@string/title_font_pref_summary" />
+
+        <ListPreference
+            android:key="@string/comments_layout_pref"
+            android:title="@string/comments_layout_pref_title"
+            android:defaultValue="1"
+            android:summary="@string/comments_layout_pref_summary"
+            android:entries="@array/comments_layout_pref_preferences"
+            android:entryValues="@array/comments_layout_pref_values"
+            android:dialogTitle="@string/comments_layout_pref_summary" />
+
+        <ListPreference
+            android:key="@string/comments_border_pref"
+            android:title="@string/comments_border_pref_title"
+            android:defaultValue="1"
+            android:summary="@string/comments_border_pref_summary"
+            android:entries="@array/comments_border_pref_preferences"
+            android:entryValues="@array/comments_border_pref_values"
+            android:dialogTitle="@string/comments_border_pref_summary" />
+
+        <CheckBoxPreference
+            android:key="@string/comment_editor_pref"
+            android:title="@string/comment_editor_pref_title"
+            android:defaultValue="false"
+            android:summary="@string/comment_editor_pref_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reddinator View">
+
+		<CheckBoxPreference
+            android:key="@string/comments_first_pref"
+            android:title="@string/comments_first_pref_title"
+            android:defaultValue="false"
+            android:summary="@string/comments_first_pref_summary" />
+        <CheckBoxPreference
+            android:key="@string/comments_webview_pref"
+            android:title="@string/comments_webview_pref_title"
+            android:defaultValue="false"
+            android:summaryOff="@string/comments_webview_pref_summary_off"
+            android:summaryOn="@string/comments_webview_pref_summary_on" />
+        <ListPreference
+            android:key="@string/preload_pref"
+            android:title="@string/preload_pref_title"
+            android:summary="@string/preload_pref_summary"
+            android:entries="@array/preload_list_preference"
+            android:entryValues="@array/preload_list_values"
+            android:defaultValue="3"
+            android:dialogTitle="@string/preload_pref_title" />
+        <CheckBoxPreference
+            android:key="@string/back_button_pref"
+            android:title="@string/back_button_pref_title"
+            android:defaultValue="false"
+            android:summaryOn="@string/back_button_pref_summary_on"
+            android:summaryOff="@string/back_button_pref_summary_off"/>
+        <ListPreference
+            android:key="@string/comment_font_pref"
+            android:title="@string/comment_font_pref_title"
+            android:summary="@string/comment_font_pref_summary"
+            android:entries="@array/fontsize_list_preference"
+            android:entryValues="@array/fontsize_list_preference"
+            android:defaultValue="18"
+            android:dialogTitle="@string/comment_font_pref_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Web Views">
+        <CheckBoxPreference
+            android:key="@string/reddit_mobile_site_pref"
+            android:title="@string/reddit_mobile_site_pref_title"
+            android:defaultValue="false"
+            android:summaryOff="@string/reddit_mobile_site_pref_summary_off"
+            android:summaryOn="@string/reddit_mobile_site_pref_summary_on" />
+        <CheckBoxPreference
+            android:key="@string/reddit_mobile_site_comments_pref"
+            android:title="@string/reddit_mobile_site_comments_pref_title"
+            android:defaultValue="true"
+            android:summaryOff="@string/reddit_mobile_site_pref_summary_off"
+            android:summaryOn="@string/reddit_mobile_site_pref_summary_on" />
+        <ListPreference
+            android:key="@string/content_font_pref"
+            android:title="@string/content_font_pref_title"
+            android:summary="@string/content_font_pref_summary"
+            android:entries="@array/fontsize_list_preference"
+            android:entryValues="@array/fontsize_list_preference"
+            android:defaultValue="18"
+            android:dialogTitle="@string/content_font_pref_title" />
+        <ListPreference
+            android:key="@string/reddit_content_font_pref"
+            android:title="@string/reddit_content_font_pref_title"
+            android:summary="@string/reddit_content_font_pref_summary"
+            android:entries="@array/fontsize_list_preference"
+            android:entryValues="@array/fontsize_list_preference"
+            android:defaultValue="20"
+            android:dialogTitle="@string/reddit_content_font_pref_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Downloads">
+        <CheckBoxPreference
+            android:key="download_nativeui"
+            android:title="@string/download_nativeui_title"
+            android:defaultValue="true"
+            android:summary="@string/download_nativeui_summary" />
+        <CheckBoxPreference
+            android:key="download_notify_complete"
+            android:title="@string/download_notify_complete_title"
+            android:defaultValue="true"
+            android:summary="@string/download_notify_complete_summary" />
+        <CheckBoxPreference
+            android:key="download_ask_pref"
+            android:title="@string/download_ask_pref_title"
+            android:defaultValue="false"
+            android:summary="@string/download_ask_pref_summary" />
+        <Preference android:title="@string/download_location_title"
+            android:key="download_location"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

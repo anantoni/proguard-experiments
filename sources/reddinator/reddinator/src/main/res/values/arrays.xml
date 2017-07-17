@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <!-- Translate -->
+    <string-array name="onclick_list_preference">
+        <item>Open Reddinator View</item>
+        <item>Open Content Page</item>
+        <item>Open Reddit Page</item>
+    </string-array>
+
+    <string-array name="onclick_values_list_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="fontsize_list_preference">
+        <item>26</item>
+        <item>24</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="widget_fontsize_preference">
+        <item>24</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="reddit_sorts">
+        <item>hot</item>
+        <item>new</item>
+        <item>rising</item>
+        <item>controversial</item>
+        <item>top</item>
+    </string-array>
+
+    <string-array name="reddit_search_sorts">
+        <item>relevance</item>
+        <item>hot</item>
+        <item>new</item>
+        <item>top</item>
+    </string-array>
+
+    <string-array name="reddit_search_times">
+        <item>all</item>
+        <item>hour</item>
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+    </string-array>
+
+    <string-array name="reddit_item_load">
+        <item>25</item>
+        <item>40</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- Translate -->
+    <string-array name="widget_refresh_list">
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>4 Hours</item>
+        <item>6 Hours</item>
+        <item>12 Hours</item>
+        <item>24 Hours</item>
+        <item>48 Hours</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="widget_refresh_values">
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>14400000</item>
+        <item>21600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Translate -->
+    <string-array name="widget_theme_preference">
+        <item>Reddit Classic</item>
+        <item>Reddit Dark</item>
+        <item>Android Holo</item>
+        <item>Dark Holo</item>
+        <item>Transparent</item>
+    </string-array>
+
+    <string-array name="widget_theme_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Translate -->
+    <string-array name="fontcolor_names">
+        <item>Reddit Blue</item>
+        <item>Reddit Dark Blue</item>
+        <item>Reddit Orange</item>
+        <item>Reddit Light Orange</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+    </string-array>
+
+    <string-array name="fontcolor_values">
+        <item>#CEE3F8</item>
+        <item>#5F99CF</item>
+        <item>#FF4500</item>
+        <item>#FF8B60</item>
+        <item>#FF0000</item>
+        <item>#FF7F00</item>
+        <item>#FFFF00</item>
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+        <item>#6600FF</item>
+        <item>#8B00FF</item>
+    </string-array>
+
+    <!-- Translate -->
+    <string-array name="preload_list_preference">
+        <item>Content &amp; Comments</item>
+        <item>Comments</item>
+        <item>Content</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="preload_list_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Translate -->
+    <string-array name="mail_check_list">
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="mail_check_values">
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="multi_icons">
+        <item>art and design</item>
+        <item>ask</item>
+        <item>books</item>
+        <item>business</item>
+        <item>cars</item>
+        <item>comics</item>
+        <item>cute animals</item>
+        <item>diy</item>
+        <item>entertainment</item>
+        <item>food and drink</item>
+        <item>funny</item>
+        <item>games</item>
+        <item>grooming</item>
+        <item>health</item>
+        <item>life advice</item>
+        <item>military</item>
+        <item>models pinup</item>
+        <item>music</item>
+        <item>news</item>
+        <item>philosophy</item>
+        <item>pictures and gifs</item>
+        <item>science</item>
+        <item>shopping</item>
+        <item>sports</item>
+        <item>style</item>
+        <item>tech</item>
+        <item>travel</item>
+        <item>unusual stories</item>
+        <item>video</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="multi_visibility">
+        <item>private</item>
+        <item>public</item>
+        <item>hidden</item>
+    </string-array>
+
+    <string-array name="multi_weights">
+        <item>classic</item>
+        <item>fresh</item>
+    </string-array>
+
+    <string-array name="comments_layout_pref_preferences">
+        <item>Default</item>
+        <item>Top &amp; Left Border</item>
+    </string-array>
+
+    <string-array name="comments_layout_pref_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="comments_border_pref_preferences">
+        <item>Uniform</item>
+        <item>Alternate lighter</item>
+        <item>Alternate darker</item>
+        <item>Rainbow colors</item>
+    </string-array>
+
+    <string-array name="comments_border_pref_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
