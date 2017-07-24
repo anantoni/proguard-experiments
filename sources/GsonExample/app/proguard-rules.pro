@@ -1,5 +1,14 @@
+-dontnote
 -dontwarn android.app.Notification
 -dontwarn android.app.Notification$Builder
 -dontwarn android.media.session.MediaController
 -dontwarn android.media.session.MediaController$TransportControls
 -dontwarn android.media.session.MediaSession
+
+-optimizationpasses 5
+-allowaccessmodification
+-dontpreverify
+-verbose
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-printconfiguration config2.txt
