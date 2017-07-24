@@ -1,0 +1,5 @@
+-dontwarn android.app.Notification
+-dontwarn android.app.Notification$Builder
+-dontwarn android.media.session.MediaController
+-dontwarn android.media.session.MediaController$TransportControls
+-dontwarn android.media.session.MediaSession
