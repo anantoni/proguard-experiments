@@ -28,10 +28,8 @@ android {
     }
     buildTypes {
         debug {
-            debuggable true
-        }
-        release {
-            debuggable false
+            minifyEnabled true
+            proguardFiles 'reddinator-reflectionrules.pro'
         }
     }
     productFlavors {

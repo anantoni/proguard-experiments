@@ -24,10 +24,9 @@ android {
         versionName "0.95"
     }
     buildTypes {
-        release {
+        debug {
             minifyEnabled true
-            useProguard true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'mintube-reflectionrules.pro'
         }
     }
 }
