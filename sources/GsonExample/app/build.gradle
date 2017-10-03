@@ -13,8 +13,9 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled false
-            proguardFiles 'proguard-rules.pro'
+            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'gson-rules.pro'
+            proguardFiles 'gson-rules.pro'
         }
     }
 }

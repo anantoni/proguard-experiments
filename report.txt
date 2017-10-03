@@ -1,0 +1,20 @@
+## GSON EXAMPLE ##
+
+Install and run debug with proguard disabled - OK 1.5MB
+Install and run debug with default file - OK 804 KB
+Install and run debug with default + doop rules - OK 806 KB
+Install and run debug with default + doop reflection rules -OK 808KB
+Install and run debug with doop rules reflection -OK 731 KB
+Install and run debug with doop rules -OK 726KB
+-needed to add -dontnote/-ignorewarnings options
+
+## CALCULATOR ##
+Install and run debug with proguard disabled - OK 2.5 MB
+Install and run debug with default file - NOT OK
+Install and run debug with default + doop rules - OK 1.8MB
+Install and run debug with default + doop rules reflection - OK 1.8MB
+Install and run debug with doop rules - OK 1.7MB (bit smaller) 
+Install and run debug with doop rules reflection -OK 1.7MB
+-dontnote + -ignorewarnings added 
+
+
