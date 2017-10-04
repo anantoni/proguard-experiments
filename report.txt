@@ -30,8 +30,8 @@ Install and run debug with proguard disabled - OK 1.6 MB
 Install and run debug with default file - OK 926 KB
 Install and run debug with default + doop rules - OK 926KB
 Install and run debug with default + doop reflection rules - OK 932KB
-Install and run debug with doop rules - OK 836KB
-Install and run debug with doop reflection rules - 835KB OK
+Install and run debug with doop rules - OK 832KB
+Install and run debug with doop reflection rules - 835KB NOT OK
 
 ## RADIODROID ##
 Install and run debug with proguard disabled - OK 2.7MB

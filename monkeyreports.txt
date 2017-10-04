@@ -1,0 +1,14 @@
+adb shell monkey -p [package-name] #events -v --pct-touch 0.5 --pct-motion 0.4
+
+#GsonExample ok
+
+#MinTube app not ok
+Doop rules - nullpointerexception: Attemt to invoke virtual method void android.support.v7.widget.ah.a()
+java.lang.RuntimeException: unable to start activity ComponentInfo(settings activity) caused by
+android.view.InflateException
+
+Doop reflection rules - same (?) at android.support.v7.widget.ai.setBackgroundDrawable
+
+
+
+
