@@ -1,0 +1,2 @@
+-dontnote
+-ignorewarnings
