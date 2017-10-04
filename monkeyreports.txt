@@ -10,5 +10,14 @@ android.view.InflateException
 Doop reflection rules - same (?) at android.support.v7.widget.ai.setBackgroundDrawable
 
 
+#Radiodroid
+Doop rules and doop rules reflection crash on start
+
+Doop rules classic + default proguard file ok testing
 
 
+#Reddinator crashes @ start
+// Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.IconTextView" on path: DexPathList
+
+
+#Mercury ssh crashes @ start

@@ -24,6 +24,7 @@ Install and run debug with default + doop rules - NOT OK 1.5MB app crashed
 Install and run debug with default + doop reflection - NOT OK 1.5MB app crashed
 Install and run debug with doop rules - NOT OK 1.3MB app crashed
 Install and run debug with doop rules reflection - NOT OK 1.3MB app crashed
+Install and run debug with doop rules classic reflection - crashed
 
 ## MINTUBE ##
 Install and run debug with proguard disabled - OK 1.6 MB
@@ -31,7 +32,8 @@ Install and run debug with default file - OK 926 KB
 Install and run debug with default + doop rules - OK 926KB
 Install and run debug with default + doop reflection rules - OK 932KB
 Install and run debug with doop rules - OK 832KB
-Install and run debug with doop reflection rules - 835KB NOT OK
+Install and run debug with doop reflection rules - 835KB OK
+Install and run debug doop classic + default - ok
 
 ## RADIODROID ##
 Install and run debug with proguard disabled - OK 2.7MB
@@ -40,6 +42,8 @@ Install and run debug default + doop rules - NOT OK 1.6 MB app crashed
 Install and run debug default + doop reflection - NOT OK 1.7MB app crashed
 Install and run debug with doop rules - NOT OK 1.6MB crashed
 Install and run debug with doop reflection - NOT OK 1.6MB crashed
+Install and run with doop classic reflection - crashed
+Install and run debug with proguard default + doop classic rules - OK 1.6MB
 
 ## REDDINATOR ##
 Install and run debug with proguard disabled - OK 3.4MB
@@ -48,3 +52,4 @@ crash default+doop rules crashed
 crash default + doop rules reflection
 doop rules crashed 2.3mb
 doop rules reflection crashed 2.3mb
+doop rules reflection classic + default 2.5 mb crashed
