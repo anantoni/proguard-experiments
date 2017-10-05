@@ -1,0 +1,41 @@
+repositories {
+            mavenLocal()
+            mavenCentral()
+            maven {
+                url "${artifactory_contextUrl}/plast-public"
+            }
+            maven {
+                url "${artifactory_contextUrl}/plast-private"
+                credentials {
+                    username = artifactory_user
+                    password = artifactory_password
+                }
+            }
+    mavenLocal()
+    mavenCentral()
+}
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:2.5.0'
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.nineoldandroids:library:2.4.+'
+    compile 'com.google.zxing:core:3.1.0@jar'
+
+    compile ('com.github.tony19:logback-android-classic:1.0.10-2@jar'){
+        // Work around for gradle 0.9 and 0.10
+        transitive = true
+    }
+    compile project(':bitherj')
+    compile project(':wheel')
+    compile project(':android-charts')
+}
+
+doop {
+    host = clue_host
+    port = clue_port as Integer
+    username = clue_user
+    password = clue_password
+    options.platform = 'android_25_fulljars'
+    options.cache = true
+    subprojectName = "bither-android"
+    buildType = "debug"
+}

@@ -1,0 +1,45 @@
+repositories {
+            mavenLocal()
+            mavenCentral()
+            maven {
+                url "${artifactory_contextUrl}/plast-public"
+            }
+            maven {
+                url "${artifactory_contextUrl}/plast-private"
+                credentials {
+                    username = artifactory_user
+                    password = artifactory_password
+                }
+            }
+    mavenLocal()
+    mavenCentral()
+}
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:2.5.0'
+
+    // The Doop Gradle plugin does not understand '+' regular
+    // expressions in Android dependencies.
+    // compile 'com.android.support:appcompat-v7:19.+'
+    // compile 'com.nineoldandroids:library:2.4.+'
+    compile 'com.android.support:appcompat-v7:19.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+
+    compile 'com.google.zxing:core:3.1.0@jar'
+
+    // Extra dependencies put in by hand.
+    compile group: 'com.google.guava', name: 'guava', version: '15.0'
+    compile group: 'com.madgag', name: 'scprov-jdk15', version: '1.46.99.3-UNOFFICIAL-ROBERTO-RELEASE'
+    compile group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
+    compile group: 'javax.inject', name: 'javax.inject', version: '1'
+    compile group: 'com.github.tony19', name: 'logback-android-core', version: '1.1.1-6'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-alpha2'
+    compile group: 'org.slf4j', name: 'slf4j-ext', version: '1.8.0-alpha2'
+
+    compile ('com.github.tony19:logback-android-classic:1.0.10-2@jar'){
+        // Work around for gradle 0.9 and 0.10
+        transitive = true
+    }
+    compile project(':bitherj')
+    compile project(':wheel')
+    compile project(':android-charts')
+}
