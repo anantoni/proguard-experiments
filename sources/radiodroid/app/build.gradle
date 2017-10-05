@@ -17,7 +17,7 @@ android {
     buildTypes {
         debug {
             minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'radiodroid-crules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'radiodroid-crules.pro'
         }
     }
 }

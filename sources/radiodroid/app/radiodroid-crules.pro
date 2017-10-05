@@ -1,6 +1,15 @@
 -dontnote
 -ignorewarnings
 
+#-dontusemixedcaseclassnames
+#-dontskipnonpubliclibraryclasses
+#-verbose
+#-dontoptimize
+#-dontpreverify
+
+-keep class android.support.v4.**
+-keep class android.support.v7.**
+
 -keepclassmembers class java.lang.reflect.Array { java.lang.Object newInstance(java.lang.Class,int[]); }
 -keepclassmembers class java.lang.Class { java.lang.Class getSuperclass(); }
 -keepclassmembers class java.lang.ClassLoader { void <init>(); }

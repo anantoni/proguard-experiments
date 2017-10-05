@@ -42,7 +42,7 @@ Install and run debug default + doop rules - NOT OK 1.6 MB app crashed
 Install and run debug default + doop reflection - NOT OK 1.7MB app crashed
 Install and run debug with doop rules - NOT OK 1.6MB crashed
 Install and run debug with doop reflection - NOT OK 1.6MB crashed
-Install and run with doop classic reflection - crashed
+Install and run with doop classic reflection - OK 1.8 MB
 Install and run debug with proguard default + doop classic rules - OK 1.6MB
 
 ## REDDINATOR ##
