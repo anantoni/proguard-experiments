@@ -62,6 +62,7 @@ public class MainActivity extends MercuryActivity {
         ButterKnife.bind(this);
 
         adapter = new ServerPagerAdapter(getSupportFragmentManager());
+        if (pager == null) System.err.println("null pager");
         pager.setAdapter(adapter);
 
         settings.setOnClickListener(new View.OnClickListener() {

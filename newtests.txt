@@ -1,0 +1,48 @@
+APP                    MEMORY SIZE             MONKEY TEST     START CRASH
+GSON EXAMPLE            ----------------------------------------
+noproguard              1.5MB                   OK              NO
+default                 804KB                   OK              OK
+default+dooprules       806KB                   OK              OK
+default+doopreflrules   822KB                   OK              OK
+dooprules               753KB                   OK              OK
+doopreflrules           776KB                   OK              OK
+
+CALCULATOR
+noproguard              2.8MB                   OK              OK
+default                 1.8MB                   OK              OK
+default+dooprules       1.8MB                   OK              OK
+default+doopreflrules   1.9MB                   OK              OK
+dooprules               1.7MB                   OK              OK
+doopreflrules           1.8MB                   OK              OK
+
+RADIODROID
+noproguard              2.7MB                   OK              OK
+default                 1.7MB                   NOT OK          NOT OK java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v7.widget.SearchView.setOnQueryTextListener(android.support.v7.widget.SearchView$c)' on a null object reference
+default+dooprules       1.7MB                   NOT OK          NOT OK same
+default+doopreflrules   1.7MB                   OK              OK
+dooprules               1.6MB                   NOT OK          NOT OK // java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v7.widget.SearchView.a(android.support.v7.widget.gc)' on a null object reference
+doopreflrules           1.7MB                   OK              OK
+
+MINTUBE
+noproguard              1.6MB                   OK              OK
+default                 926KB                   OK              OK
+default+dooprules       959KB                   OK              OK 
+default+doopreflrules   978KB                   OK              OK
+dooprules               917KB                   OK              OK
+doopreflrules           932KB                   OK              OK
+
+REDDINATOR
+noproguard              3.4MB                   OK              OK
+default                 2.4MB                   NOT OK          NOT OK Long Msg: java.lang.ClassNotFoundException: Didn't find class "android.view.IconTextView" on path: DexPathList[[zip file "/data/app/au.com.wallaceit.reddinator-1/base.apk"],nativeLibraryDirectories=[/data/app/au.com.wallaceit.reddinator-1/lib/arm, /vendor/lib, /system/lib]]
+default+dooprules       2.4MB                   NOT OK          NOT OK  same
+default+doopreflrules   2.5MB                   NOT OK          NOT OK same
+dooprules               2.3MB                   NOT OK          NOT OK same
+doopreflectionrules     2.4MB                   NOT OK          NOT OK same
+
+MERCURYSSH
+noproguard              2.8MB                   OK              OK
+default                                         NOT OK          NOT OK
+default+dooprules       1.5MB                   NOT OK          NOT OK
+default+doopreflrules   1.5MBi                  NOT OK          NOT OK
+dooprules               1.5MB                   NOT OK          NOT OK java.lang.RuntimeException: Unable to start activity ComponentInfo{it.skarafaz.mercury/it.skarafaz.mercury.activity.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.view.ViewPager.a(android.support.v4.view.bm)' on a null object reference
+doopreflrules           1.5MB                   NOT OK          NOT OK

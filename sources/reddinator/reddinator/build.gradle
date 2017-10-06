@@ -28,8 +28,8 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled false
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'reddinator-crules.pro'
+            minifyEnabled true
+            proguardFiles 'reddinator-crulesnew.pro'
         }
     }
     productFlavors {
@@ -50,4 +50,5 @@ dependencies {
     compile 'com.github.guardian:Option:e933c3a31d'
     compile 'net.rdrei.android.dirchooser:library:3.2@aar'
     compile 'com.android.support:support-vector-drawable:25.1.0'
+    compile 'com.android.support:multidex:1.0.1'
 }
