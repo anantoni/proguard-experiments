@@ -4,9 +4,13 @@
 
 -dontoptimize
 -dontpreverify
-
+-dontobfuscate
 -dontnote
 -ignorewarnings
+
+-keep class **$$ViewBinder { *; }
+
+
 -keepclassmembers class java.lang.ThreadGroup { void uncaughtException(java.lang.Thread,java.lang.Throwable); }
 -keepclassmembers class java.lang.ClassLoader { void <init>(); }
 -keepclassmembers class java.lang.System { void arraycopy(java.lang.Object,int,java.lang.Object,int,int); }

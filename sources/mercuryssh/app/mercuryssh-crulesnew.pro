@@ -4,19 +4,13 @@
 
 -dontoptimize
 -dontpreverify
+-dontobfuscate
 
 -dontnote
 -ignorewarnings
 
-#Retain generated class which implement Unbinder.
--keep public class * implements butterknife.Unbinder { public <init>(**, android.view.View); }
--keep public class butterknife.Binder { *; }
-# Prevent obfuscation of types which use ButterKnife annotations since the simple name
-# is used to reflectively look up the generated ViewBinding.
--keep class butterknife.*
--keepclasseswithmembernames class * { @butterknife.* <methods>; }
--keepclasseswithmembernames class * { @butterknife.* <fields>; }
 
+-keep class **$$ViewBinder { *; }
 
 -keepclassmembers class java.lang.reflect.Array { java.lang.Object newInstance(java.lang.Class,int[]); }
 -keepclassmembers class java.lang.Thread { void <init>(java.lang.ThreadGroup,java.lang.Runnable); }

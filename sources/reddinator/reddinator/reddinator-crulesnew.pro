@@ -4,6 +4,7 @@
 
 -dontoptimize
 -dontpreverify
+-dontobfuscate
 
 -dontnote
 -ignorewarnings

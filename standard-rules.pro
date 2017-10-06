@@ -1,4 +1,4 @@
--dontusemixedclassnames
+-dontusemixedcaseclassnames
 -dontskipnonpubliclibraryclasses
 -verbose
 
