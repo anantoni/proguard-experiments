@@ -21,7 +21,7 @@ default                 1.7MB                   NOT OK          NOT OK java.lang
 default+dooprules       1.7MB                   NOT OK          NOT OK same
 default+doopreflrules   1.7MB                   OK              OK
 dooprules               1.6MB                   NOT OK          NOT OK // java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v7.widget.SearchView.a(android.support.v7.widget.gc)' on a null object reference
-doopreflrules           1.7MB                   OK              OK
+doopreflrules           1.7MB                   OK              OK optimizations disabled
 
 MINTUBE
 noproguard              1.6MB                   OK              OK
@@ -37,7 +37,7 @@ default                 2.4MB                   NOT OK          NOT OK Long Msg:
 default+dooprules       2.4MB                   NOT OK          NOT OK  same
 default+doopreflrules   2.5MB                   NOT OK          NOT OK same
 dooprules               2.3MB                   NOT OK          NOT OK same
-doopreflectionrules     2.4MB                   NOT OK          NOT OK same
+doopreflectionrules     2.7MB                   OK              OK optimizations and obfuscation disabled 
 
 MERCURYSSH
 noproguard              2.8MB                   OK              OK
@@ -45,4 +45,4 @@ default                                         NOT OK          NOT OK
 default+dooprules       1.5MB                   NOT OK          NOT OK
 default+doopreflrules   1.5MBi                  NOT OK          NOT OK
 dooprules               1.5MB                   NOT OK          NOT OK java.lang.RuntimeException: Unable to start activity ComponentInfo{it.skarafaz.mercury/it.skarafaz.mercury.activity.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.view.ViewPager.a(android.support.v4.view.bm)' on a null object reference
-doopreflrules           1.5MB                   NOT OK          NOT OK
+doopreflrules           1.7MB                   NOT OK          NOT OK optimizations and obfuscation disabled

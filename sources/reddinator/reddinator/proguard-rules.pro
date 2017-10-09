@@ -1,2 +1,3 @@
 -dontnote
 -ignorewarnings
+-dontobfuscate
