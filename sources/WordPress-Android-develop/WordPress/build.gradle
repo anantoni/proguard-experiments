@@ -61,17 +61,16 @@ android {
     }
 
     buildTypes {
-        release {
+//        release {
             // Proguard is used to shrink our apk, and reduce the number of methods in our final apk,
             // but we don't obfuscate the bytecode.
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
-        }
+  //          minifyEnabled true
+    //        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+      //  }
 
         debug {
             minifyEnabled false
-            buildConfigField "String", "APP_PN_KEY", "\"org.wordpress.android.debug.build\""
-            ext.enableCrashlytics = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
         }
     }
 }
