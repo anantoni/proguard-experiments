@@ -1,0 +1,72 @@
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/mercuryssh.apk - id: mercuryssh-reflection
+Using cached facts from /home/cvrac/doop-nexgen/cache/f16dd6e78ee9fa6b580c4bd9e5c2b938b62bd3d24cdacc5f7bb63deb99b7a7bf
+Using cached analysis executable /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 1182
+-- Runtime metrics --
+analysis compilation time (sec)                                                  0
+analysis execution time (sec)                                                    1,182
+disk footprint (KB)                                                              134,381,030
+soot-fact-generation time (sec)                                                  0
+-- Statistics --
+var points-to (INS)                                                              186,820,031
+var points-to (SENS)                                                             186,820,031
+reachable variables (INS)                                                        503,492
+reachable variables (SENS)                                                       503,492
+reachable methods (INS)                                                          45,202
+reachable methods (SENS)                                                         45,202
+virtual call sites (statically)                                                  300,678
+reachable virtual call sites                                                     104,158
+polymorphic virtual call sites                                                   9,449
+null virtual call sites                                                          30,319
+empty virtual call sites                                                         5,152
+app virtual call sites (statically)                                              59,521
+app reachable virtual call sites                                                 31,347
+app polymorphic virtual call sites                                               3,335
+app null virtual call sites                                                      9,069
+app empty virtual call sites                                                     1,840
+array index points-to (INS)                                                      1,641,948
+array index points-to (SENS)                                                     1,641,948
+casts (statically)                                                               31,583
+reachable casts                                                                  8,713
+reachable casts that may fail                                                    6,459
+app casts (statically)                                                           6,374
+app reachable casts                                                              2,242
+app reachable casts that may fail                                                1,821
+app reachable methods                                                            12,408
+instance field points-to (INS)                                                   36,129,500
+instance field points-to (SENS)                                                  36,129,500
+var points-to (to a reflective value) (INS)                                      35,265,456
+var points-to (to a reflective value) (SENS)                                     35,265,456
+array index points-to (to a reflective value) (INS)                              320,982
+array index points-to (to a reflective value) (SENS)                             320,982
+instance field points-to (to a reflective value) (INS)                           2,505,539
+instance field points-to (to a reflective value) (SENS)                          2,505,539
+reachable 'forName' (INS)                                                        123
+reachable 'Class.newInstance' (INS)                                              99
+reachable 'Constructor.newInstance' (INS)                                        33
+static field points-to (INS)                                                     70,507
+static field points-to (SENS)                                                    70,507
+app var points-to (INS)                                                          62,580,213
+app var points-to (SENS)                                                         62,580,213
+app array index points-to (INS)                                                  411,363
+app array index points-to (SENS)                                                 411,363
+app instance field points-to (INS)                                               5,557,913
+app instance field points-to (SENS)                                              5,557,913
+call graph edges (INS)                                                           269,182
+call graph edges (SENS)                                                          269,182
+non-reachable app concrete methods                                               17,220
+Making database available at /home/cvrac/doop-nexgen/results/mercuryssh/context-insensitive/android_25_fulljars/mercuryssh-reflection
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 19 mins 48.764 secs

@@ -1,0 +1,323 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/calculator.apk - id: calculator
+-- Fact Generation --
+Parsing resource file
+Included file: res/layout/pad_numeric.xml
+Included file: res/layout/pad_operator_two_col.xml
+Included file: res/layout/pad_advanced.xml
+Included file: res/layout/pad_hex.xml
+Included file: res/layout/pad_matrix.xml
+Included file: res/layout/fab_tray.xml
+Included file: res/layout/display.xml
+Included file: res/layout/graph_tray.xml
+Found 9 layout controls in file res/layout-land-v17/activity_calculator.xml
+Included file: res/layout/pad_numeric.xml
+Included file: res/layout/pad_operator_two_col.xml
+Included file: res/layout/pad_advanced.xml
+Included file: res/layout/pad_hex.xml
+Included file: res/layout/pad_matrix.xml
+Included file: res/layout/fab_tray.xml
+Included file: res/layout/display.xml
+Included file: res/layout/graph_tray.xml
+Found 10 layout controls in file res/layout-land/activity_calculator.xml
+Included file: res/layout/pad_advanced.xml
+Included file: res/layout/pad_hex.xml
+Included file: res/layout/pad_matrix.xml
+Included file: res/layout/fab_tray.xml
+Included file: res/layout/pad_numeric.xml
+Included file: res/layout/pad_operator_two_col.xml
+Included file: res/layout/display.xml
+Included file: res/layout/graph_tray.xml
+Found 11 layout controls in file res/layout-sw600dp-port-v13/activity_calculator.xml
+Found 12 layout controls in file res/layout-sw600dp-port-v13/pad_advanced.xml
+Found 13 layout controls in file res/layout-sw600dp-port-v13/pad_hex.xml
+Included file: res/layout/pad_advanced.xml
+Included file: res/layout/pad_hex.xml
+Included file: res/layout/pad_matrix.xml
+Included file: res/layout/fab_tray.xml
+Included file: res/layout/pad_numeric.xml
+Included file: res/layout/pad_operator_two_col.xml
+Included file: res/layout/display.xml
+Included file: res/layout/graph_tray.xml
+Found 14 layout controls in file res/layout-sw600dp-port-v17/activity_calculator.xml
+Found 15 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 16 layout controls in file res/layout-v16/design_bottom_sheet_dialog.xml
+Found 17 layout controls in file res/layout-v16/notification_template_custom_big.xml
+Found 18 layout controls in file res/layout-v17/abc_alert_dialog_button_bar_material.xml
+Included file: res/layout/abc_alert_dialog_button_bar_material.xml
+Found 20 layout controls in file res/layout-v17/abc_alert_dialog_material.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 22 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Found 23 layout controls in file res/layout-v17/abc_popup_menu_header_item_layout.xml
+Found 24 layout controls in file res/layout-v17/abc_popup_menu_item_layout.xml
+Found 25 layout controls in file res/layout-v17/abc_search_view.xml
+Found 26 layout controls in file res/layout-v17/design_layout_snackbar_include.xml
+Found 27 layout controls in file res/layout-v17/notification_action.xml
+Found 28 layout controls in file res/layout-v17/notification_action_tombstone.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines_media.xml
+Found 32 layout controls in file res/layout-v17/notification_template_big_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 33 layout controls in file res/layout-v17/notification_template_big_media_custom.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines_media.xml
+Found 34 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 35 layout controls in file res/layout-v17/notification_template_big_media_narrow_custom.xml
+Found 36 layout controls in file res/layout-v17/notification_template_custom_big.xml
+Found 37 layout controls in file res/layout-v17/notification_template_lines_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_template_lines_media.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 38 layout controls in file res/layout-v17/notification_template_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 39 layout controls in file res/layout-v17/notification_template_media_custom.xml
+Found 40 layout controls in file res/layout-v17/select_dialog_multichoice_material.xml
+Found 41 layout controls in file res/layout-v17/select_dialog_singlechoice_material.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 42 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found 43 layout controls in file res/layout-v21/notification_action.xml
+Found 44 layout controls in file res/layout-v21/notification_action_tombstone.xml
+Included file: res/layout/notification_template_icon_group.xml
+Found 45 layout controls in file res/layout-v21/notification_template_custom_big.xml
+Found 46 layout controls in file res/layout-v21/notification_template_icon_group.xml
+Found 47 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 48 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 49 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 50 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 51 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 52 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 53 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 54 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 55 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 55 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Included file: res/layout/abc_alert_dialog_button_bar_material.xml
+Found 56 layout controls in file res/layout/abc_alert_dialog_material.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 57 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 58 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 59 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 60 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 61 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 62 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 63 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found 64 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 64 layout controls in file res/layout/abc_screen_content_include.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 65 layout controls in file res/layout/abc_screen_simple.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 66 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 67 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 68 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 69 layout controls in file res/layout/abc_search_view.xml
+Found 70 layout controls in file res/layout/abc_select_dialog_material.xml
+Included file: res/layout/pad_numeric.xml
+Included file: res/layout/pad_operator_one_col.xml
+Included file: res/layout/pad_advanced.xml
+Included file: res/layout/pad_hex.xml
+Included file: res/layout/pad_matrix.xml
+Included file: res/layout/fab_tray.xml
+Included file: res/layout/display.xml
+Included file: res/layout/graph_tray.xml
+Found 72 layout controls in file res/layout/activity_calculator.xml
+Found 73 layout controls in file res/layout/design_bottom_navigation_item.xml
+Found 74 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Found 75 layout controls in file res/layout/design_layout_snackbar.xml
+Found 76 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 77 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 78 layout controls in file res/layout/design_layout_tab_text.xml
+Found 79 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 80 layout controls in file res/layout/design_navigation_item.xml
+Found 81 layout controls in file res/layout/design_navigation_item_header.xml
+Found 82 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 83 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found 84 layout controls in file res/layout/design_navigation_menu.xml
+Found 85 layout controls in file res/layout/design_navigation_menu_item.xml
+Found 86 layout controls in file res/layout/design_text_input_password_icon.xml
+Found 86 layout controls in file res/layout/display.xml
+Found 86 layout controls in file res/layout/fab_tray.xml
+Found 87 layout controls in file res/layout/floating_calculator.xml
+Found 88 layout controls in file res/layout/floating_calculator_advanced.xml
+Found 89 layout controls in file res/layout/floating_calculator_basic.xml
+Found 90 layout controls in file res/layout/floating_calculator_history.xml
+Found 91 layout controls in file res/layout/floating_calculator_icon.xml
+Found 92 layout controls in file res/layout/floating_delete_box.xml
+Found 93 layout controls in file res/layout/floating_history_entry.xml
+Found 94 layout controls in file res/layout/graph_entry.xml
+Found 94 layout controls in file res/layout/graph_tray.xml
+Found 95 layout controls in file res/layout/history_entry.xml
+Found 96 layout controls in file res/layout/notification_action.xml
+Found 97 layout controls in file res/layout/notification_action_tombstone.xml
+Found 98 layout controls in file res/layout/notification_media_action.xml
+Found 98 layout controls in file res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines_media.xml
+Found 99 layout controls in file res/layout/notification_template_big_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 100 layout controls in file res/layout/notification_template_big_media_custom.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines_media.xml
+Found 101 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 102 layout controls in file res/layout/notification_template_big_media_narrow_custom.xml
+Included file: res/layout/notification_template_part_time.xml
+Found 104 layout controls in file res/layout/notification_template_custom_big.xml
+Found 104 layout controls in file res/layout/notification_template_icon_group.xml
+Found 104 layout controls in file res/layout/notification_template_lines_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_template_lines_media.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 105 layout controls in file res/layout/notification_template_media.xml
+Included file: res/layout/notification_template_icon_group.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 106 layout controls in file res/layout/notification_template_media_custom.xml
+Found 107 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 107 layout controls in file res/layout/notification_template_part_time.xml
+Found 107 layout controls in file res/layout/pad_advanced.xml
+Found 107 layout controls in file res/layout/pad_hex.xml
+Found 107 layout controls in file res/layout/pad_matrix.xml
+Found 107 layout controls in file res/layout/pad_numeric.xml
+Found 107 layout controls in file res/layout/pad_operator_one_col.xml
+Found 107 layout controls in file res/layout/pad_operator_two_col.xml
+Found 108 layout controls in file res/layout/select_dialog_item_material.xml
+Found 109 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 110 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 111 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found 112 layout controls in file res/layout/widget.xml
+application name: null
+package name: com.xlythe.calculator.material
+activities: [com.xlythe.calculator.material.floating.FloatingCalculatorCreateShortCutActivity, com.xlythe.calculator.material.floating.FloatingCalculatorOpenShortCutActivity, com.xlythe.calculator.material.Calculator]
+content providers: []
+broadcast receivers: [com.xlythe.calculator.material.widget.CalculatorWidget]
+services: [com.xlythe.calculator.material.floating.FloatingCalculator]
+callbacks: [onButtonClick]
+Adding file: ../proguard-experiments/apkfromsource/calculator.apk
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/android.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/android-stubs-src.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/data/layoutlib.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/uiautomator.jar
+Android mode, APK = ../proguard-experiments/apkfromsource/calculator.apk
+Warning: java.awt.Component is a phantom class!
+Warning: java.awt.Dimension is a phantom class!
+Warning: java.awt.Graphics is a phantom class!
+Warning: java.awt.Image is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: java.awt.image.ImageObserver is a phantom class!
+Warning: javax.swing.JFrame is a phantom class!
+Warning: javax.swing.JPanel is a phantom class!
+Classes found in apk: 2729
+Warning: java.lang.ref.Finalizer is a phantom class!
+Total classes in Scene: 12686
+Retrieved all bodies
+Fact generation time: 31
+Caching facts in /home/cvrac/doop-nexgen/cache/9bb6d7f3121bda61d8f616f5d5f4f6d332ec7f6630e5a4b05cde5a8da00089f5
+----
+Compiling Datalog to C++ program and executable
+Warning: No rules/facts defined for relation MainClass in file context-insensitive.dl at line 28
+Warning: No rules/facts defined for relation MethodHandleConstant_InstanceType in file context-insensitive.dl at line 85
+Warning: No rules/facts defined for relation Properties in file context-insensitive.dl at line 235
+Warning: No rules/facts defined for relation Config_DynamicClass in file context-insensitive.dl at line 237
+Warning: No rules/facts defined for relation LibraryReachableAppListener in file context-insensitive.dl at line 1265
+Warning: No rules/facts defined for relation isContextComponent in file context-insensitive.dl at line 1317
+Warning: No rules/facts defined for relation ContextComponent_MethodInvocation in file context-insensitive.dl at line 1318
+Warning: No rules/facts defined for relation ContextComponent_Value in file context-insensitive.dl at line 1319
+Warning: No rules/facts defined for relation Assign in file context-insensitive.dl at line 1324
+Warning: No rules/facts defined for relation OptLoadInstanceField in file context-insensitive.dl at line 1328
+Warning: No rules/facts defined for relation OptLoadStaticField in file context-insensitive.dl at line 1329
+Warning: No rules/facts defined for relation OptStoreStaticField in file context-insensitive.dl at line 1330
+Warning: No rules/facts defined for relation OptStoreInstanceField in file context-insensitive.dl at line 1331
+Warning: No rules/facts defined for relation ReachableSpecialMethodInvocation in file context-insensitive.dl at line 1333
+Warning: No rules/facts defined for relation ReachableVirtualMethodInvocation in file context-insensitive.dl at line 1334
+Warning: No rules/facts defined for relation AssignAuxiliaryHeapAllocation in file context-insensitive.dl at line 1343
+Warning: No rules/facts defined for relation SiteToRefine in file context-insensitive.dl at line 1348
+Warning: No rules/facts defined for relation TempSiteToRefine in file context-insensitive.dl at line 1349
+Warning: No rules/facts defined for relation ValueToRefine in file context-insensitive.dl at line 1350
+Warning: No rules/facts defined for relation TempValueToRefine in file context-insensitive.dl at line 1351
+Warning: No rules/facts defined for relation NegativeSiteFilter in file context-insensitive.dl at line 1352
+Warning: No rules/facts defined for relation TempNegativeSiteFilter in file context-insensitive.dl at line 1353
+Warning: No rules/facts defined for relation NegativeObjectFilter in file context-insensitive.dl at line 1354
+Warning: No rules/facts defined for relation TempNegativeObjectFilter in file context-insensitive.dl at line 1355
+Warning: No rules/facts defined for relation HeapAllocation_Keep in file context-insensitive.dl at line 1893
+Warning: No rules/facts defined for relation ReflectionStringConstant in file context-insensitive.dl at line 1934
+Warning: No rules/facts defined for relation ReflectionSubstringObject in file context-insensitive.dl at line 1935
+Warning: No rules/facts defined for relation PreClassNameMatchingStringConstantInexact_Type in file context-insensitive.dl at line 1954
+Warning: No rules/facts defined for relation PreMethodNameMatchingStringConstantInexact_Signature in file context-insensitive.dl at line 1972
+Warning: No rules/facts defined for relation PreFieldNameMatchingStringConstantInexact_Signature in file context-insensitive.dl at line 1983
+Warning: No rules/facts defined for relation AllocationShouldBeMergedPerClass in file context-insensitive.dl at line 2049
+Warning: No rules/facts defined for relation AllocationShouldBeMergedPerPackage in file context-insensitive.dl at line 2116
+Warning: No rules/facts defined for relation AllocationShouldBeMergedGlobally in file context-insensitive.dl at line 2140
+Warning: No rules/facts defined for relation StringFactoryVar in file context-insensitive.dl at line 2193
+Warning: No rules/facts defined for relation StringFactoryVarPointsTo in file context-insensitive.dl at line 2194
+Warning: No rules/facts defined for relation MockObjFromField in file context-insensitive.dl at line 2647
+Analysis compilation time (sec): 133
+Caching analysis executable in /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 183
+-- Runtime metrics --
+analysis compilation time (sec)                                                  133
+analysis execution time (sec)                                                    183
+disk footprint (KB)                                                              13,981,188
+soot-fact-generation time (sec)                                                  31
+-- Statistics --
+var points-to (INS)                                                              29,717,185
+var points-to (SENS)                                                             29,717,185
+reachable variables (INS)                                                        258,297
+reachable variables (SENS)                                                       258,297
+reachable methods (INS)                                                          22,744
+reachable methods (SENS)                                                         22,744
+virtual call sites (statically)                                                  278,343
+reachable virtual call sites                                                     51,753
+polymorphic virtual call sites                                                   4,313
+null virtual call sites                                                          14,556
+empty virtual call sites                                                         3,781
+app virtual call sites (statically)                                              37,891
+app reachable virtual call sites                                                 7,854
+app polymorphic virtual call sites                                               580
+app null virtual call sites                                                      1,758
+app empty virtual call sites                                                     1,347
+array index points-to (INS)                                                      221,884
+array index points-to (SENS)                                                     221,884
+casts (statically)                                                               30,220
+reachable casts                                                                  4,134
+reachable casts that may fail                                                    3,018
+app casts (statically)                                                           5,106
+app reachable casts                                                              470
+app reachable casts that may fail                                                340
+app reachable methods                                                            3,320
+instance field points-to (INS)                                                   11,937,288
+instance field points-to (SENS)                                                  11,937,288
+static field points-to (INS)                                                     17,436
+static field points-to (SENS)                                                    17,436
+app var points-to (INS)                                                          7,620,890
+app var points-to (SENS)                                                         7,620,890
+app array index points-to (INS)                                                  724
+app array index points-to (SENS)                                                 724
+app instance field points-to (INS)                                               1,036,209
+app instance field points-to (SENS)                                              1,036,209
+call graph edges (INS)                                                           100,573
+call graph edges (SENS)                                                          100,573
+non-reachable app concrete methods                                               16,129
+Making database available at /home/cvrac/doop-nexgen/results/calculator/context-insensitive/android_25_fulljars/calculator
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 5 mins 58.434 secs

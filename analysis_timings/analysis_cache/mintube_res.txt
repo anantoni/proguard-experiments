@@ -1,0 +1,66 @@
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/mintube.apk - id: mintube
+Using cached facts from /home/cvrac/doop-nexgen/cache/7a296c9146b74595e91434e70d8525b84ce443cf4ee3eae4d2f20ea97e8e2d86
+Using cached analysis executable /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 148
+-- Runtime metrics --
+analysis compilation time (sec)                                                  0
+analysis execution time (sec)                                                    148
+disk footprint (KB)                                                              10,766,674
+soot-fact-generation time (sec)                                                  0
+-- Statistics --
+var points-to (INS)                                                              25,453,513
+var points-to (SENS)                                                             25,453,513
+reachable variables (INS)                                                        259,696
+reachable variables (SENS)                                                       259,696
+reachable methods (INS)                                                          23,537
+reachable methods (SENS)                                                         23,537
+virtual call sites (statically)                                                  266,097
+reachable virtual call sites                                                     52,628
+polymorphic virtual call sites                                                   4,264
+null virtual call sites                                                          15,077
+empty virtual call sites                                                         3,666
+app virtual call sites (statically)                                              25,144
+app reachable virtual call sites                                                 6,964
+app polymorphic virtual call sites                                               545
+app null virtual call sites                                                      1,839
+app empty virtual call sites                                                     1,059
+array index points-to (INS)                                                      244,117
+array index points-to (SENS)                                                     244,117
+casts (statically)                                                               28,559
+reachable casts                                                                  4,276
+reachable casts that may fail                                                    3,169
+app casts (statically)                                                           3,394
+app reachable casts                                                              494
+app reachable casts that may fail                                                400
+app reachable methods                                                            3,301
+instance field points-to (INS)                                                   8,870,638
+instance field points-to (SENS)                                                  8,870,638
+static field points-to (INS)                                                     16,125
+static field points-to (SENS)                                                    16,125
+app var points-to (INS)                                                          3,192,916
+app var points-to (SENS)                                                         3,192,916
+app array index points-to (INS)                                                  1,608
+app array index points-to (SENS)                                                 1,608
+app instance field points-to (INS)                                               1,156,605
+app instance field points-to (SENS)                                              1,156,605
+call graph edges (INS)                                                           102,991
+call graph edges (SENS)                                                          102,991
+non-reachable app concrete methods                                               11,290
+Making database available at /home/cvrac/doop-nexgen/results/mintube/context-insensitive/android_25_fulljars/mintube
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 35.714 secs

@@ -1,0 +1,106 @@
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/calculator.apk - id: calculator-reflection
+Using cached facts from /home/cvrac/doop-nexgen/cache/9bb6d7f3121bda61d8f616f5d5f4f6d332ec7f6630e5a4b05cde5a8da00089f5
+Compiling Datalog to C++ program and executable
+Warning: No rules/facts defined for relation MainClass in file context-insensitive.dl at line 28
+Warning: No rules/facts defined for relation MethodHandleConstant_InstanceType in file context-insensitive.dl at line 85
+Warning: No rules/facts defined for relation Properties in file context-insensitive.dl at line 235
+Warning: No rules/facts defined for relation Config_DynamicClass in file context-insensitive.dl at line 237
+Warning: No rules/facts defined for relation LibraryReachableAppListener in file context-insensitive.dl at line 1265
+Warning: No rules/facts defined for relation java_lang_reflect_Array_newInstance in file context-insensitive.dl at line 1318
+Warning: No rules/facts defined for relation isContextComponent in file context-insensitive.dl at line 1352
+Warning: No rules/facts defined for relation ContextComponent_MethodInvocation in file context-insensitive.dl at line 1353
+Warning: No rules/facts defined for relation ContextComponent_Value in file context-insensitive.dl at line 1354
+Warning: No rules/facts defined for relation Assign in file context-insensitive.dl at line 1359
+Warning: No rules/facts defined for relation OptLoadInstanceField in file context-insensitive.dl at line 1363
+Warning: No rules/facts defined for relation OptLoadStaticField in file context-insensitive.dl at line 1364
+Warning: No rules/facts defined for relation OptStoreStaticField in file context-insensitive.dl at line 1365
+Warning: No rules/facts defined for relation OptStoreInstanceField in file context-insensitive.dl at line 1366
+Warning: No rules/facts defined for relation ReachableSpecialMethodInvocation in file context-insensitive.dl at line 1368
+Warning: No rules/facts defined for relation ReachableVirtualMethodInvocation in file context-insensitive.dl at line 1369
+Warning: No rules/facts defined for relation AssignAuxiliaryHeapAllocation in file context-insensitive.dl at line 1378
+Warning: No rules/facts defined for relation SiteToRefine in file context-insensitive.dl at line 1383
+Warning: No rules/facts defined for relation TempSiteToRefine in file context-insensitive.dl at line 1384
+Warning: No rules/facts defined for relation ValueToRefine in file context-insensitive.dl at line 1385
+Warning: No rules/facts defined for relation TempValueToRefine in file context-insensitive.dl at line 1386
+Warning: No rules/facts defined for relation NegativeSiteFilter in file context-insensitive.dl at line 1387
+Warning: No rules/facts defined for relation TempNegativeSiteFilter in file context-insensitive.dl at line 1388
+Warning: No rules/facts defined for relation NegativeObjectFilter in file context-insensitive.dl at line 1389
+Warning: No rules/facts defined for relation TempNegativeObjectFilter in file context-insensitive.dl at line 1390
+Warning: No rules/facts defined for relation HeapAllocation_Keep in file context-insensitive.dl at line 1928
+Warning: No rules/facts defined for relation AllocationShouldBeMergedPerClass in file context-insensitive.dl at line 2295
+Warning: No rules/facts defined for relation AllocationShouldBeMergedPerPackage in file context-insensitive.dl at line 2362
+Warning: No rules/facts defined for relation AllocationShouldBeMergedGlobally in file context-insensitive.dl at line 2386
+Warning: No rules/facts defined for relation BackwardHighConfidenceReflectiveAssignMethodConstant in file context-insensitive.dl at line 3124
+Warning: No rules/facts defined for relation BackwardHighConfidenceReflectiveAssignFieldConstant in file context-insensitive.dl at line 3125
+Warning: No rules/facts defined for relation MockObjFromField in file context-insensitive.dl at line 3817
+Analysis compilation time (sec): 334
+Caching analysis executable in /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 532
+-- Runtime metrics --
+analysis compilation time (sec)                                                  334
+analysis execution time (sec)                                                    532
+disk footprint (KB)                                                              44,703,497
+soot-fact-generation time (sec)                                                  0
+-- Statistics --
+var points-to (INS)                                                              85,780,603
+var points-to (SENS)                                                             85,780,603
+reachable variables (INS)                                                        425,992
+reachable variables (SENS)                                                       425,992
+reachable methods (INS)                                                          37,992
+reachable methods (SENS)                                                         37,992
+virtual call sites (statically)                                                  278,343
+reachable virtual call sites                                                     89,081
+polymorphic virtual call sites                                                   6,632
+null virtual call sites                                                          23,937
+empty virtual call sites                                                         5,258
+app virtual call sites (statically)                                              37,891
+app reachable virtual call sites                                                 16,390
+app polymorphic virtual call sites                                               1,173
+app null virtual call sites                                                      4,114
+app empty virtual call sites                                                     1,500
+array index points-to (INS)                                                      637,489
+array index points-to (SENS)                                                     637,489
+casts (statically)                                                               30,220
+reachable casts                                                                  7,255
+reachable casts that may fail                                                    5,358
+app casts (statically)                                                           5,106
+app reachable casts                                                              1,254
+app reachable casts that may fail                                                924
+app reachable methods                                                            6,956
+instance field points-to (INS)                                                   29,760,230
+instance field points-to (SENS)                                                  29,760,230
+var points-to (to a reflective value) (INS)                                      8,631,289
+var points-to (to a reflective value) (SENS)                                     8,631,289
+array index points-to (to a reflective value) (INS)                              58,887
+array index points-to (to a reflective value) (SENS)                             58,887
+instance field points-to (to a reflective value) (INS)                           713,786
+instance field points-to (to a reflective value) (SENS)                          713,786
+reachable 'forName' (INS)                                                        69
+reachable 'Class.newInstance' (INS)                                              49
+reachable 'Constructor.newInstance' (INS)                                        20
+static field points-to (INS)                                                     37,642
+static field points-to (SENS)                                                    37,642
+app var points-to (INS)                                                          17,029,829
+app var points-to (SENS)                                                         17,029,829
+app array index points-to (INS)                                                  17,303
+app array index points-to (SENS)                                                 17,303
+app instance field points-to (INS)                                               2,418,431
+app instance field points-to (SENS)                                              2,418,431
+call graph edges (INS)                                                           187,478
+call graph edges (SENS)                                                          187,478
+non-reachable app concrete methods                                               12,494
+Making database available at /home/cvrac/doop-nexgen/results/calculator/context-insensitive/android_25_fulljars/calculator-reflection
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 14 mins 32.175 secs

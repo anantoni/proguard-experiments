@@ -1,0 +1,72 @@
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/radiodroid.apk - id: radiodroid-reflection
+Using cached facts from /home/cvrac/doop-nexgen/cache/dfcf39b0d9485e31880960f6b6caa8a74f6fe4e9150c88f872ae280570200332
+Using cached analysis executable /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 1055
+-- Runtime metrics --
+analysis compilation time (sec)                                                  0
+analysis execution time (sec)                                                    1,055
+disk footprint (KB)                                                              106,043,543
+soot-fact-generation time (sec)                                                  0
+-- Statistics --
+var points-to (INS)                                                              168,503,360
+var points-to (SENS)                                                             168,503,360
+reachable variables (INS)                                                        500,515
+reachable variables (SENS)                                                       500,515
+reachable methods (INS)                                                          44,310
+reachable methods (SENS)                                                         44,310
+virtual call sites (statically)                                                  287,357
+reachable virtual call sites                                                     104,706
+polymorphic virtual call sites                                                   8,269
+null virtual call sites                                                          30,730
+empty virtual call sites                                                         4,732
+app virtual call sites (statically)                                              42,947
+app reachable virtual call sites                                                 26,419
+app polymorphic virtual call sites                                               2,112
+app null virtual call sites                                                      7,822
+app empty virtual call sites                                                     1,403
+array index points-to (INS)                                                      1,217,811
+array index points-to (SENS)                                                     1,217,811
+casts (statically)                                                               31,221
+reachable casts                                                                  8,838
+reachable casts that may fail                                                    6,495
+app casts (statically)                                                           5,644
+app reachable casts                                                              2,204
+app reachable casts that may fail                                                1,734
+app reachable methods                                                            11,205
+instance field points-to (INS)                                                   35,060,016
+instance field points-to (SENS)                                                  35,060,016
+var points-to (to a reflective value) (INS)                                      34,126,420
+var points-to (to a reflective value) (SENS)                                     34,126,420
+array index points-to (to a reflective value) (INS)                              229,228
+array index points-to (to a reflective value) (SENS)                             229,228
+instance field points-to (to a reflective value) (INS)                           2,152,810
+instance field points-to (to a reflective value) (SENS)                          2,152,810
+reachable 'forName' (INS)                                                        98
+reachable 'Class.newInstance' (INS)                                              51
+reachable 'Constructor.newInstance' (INS)                                        34
+static field points-to (INS)                                                     40,947
+static field points-to (SENS)                                                    40,947
+app var points-to (INS)                                                          44,772,658
+app var points-to (SENS)                                                         44,772,658
+app array index points-to (INS)                                                  108,311
+app array index points-to (SENS)                                                 108,311
+app instance field points-to (INS)                                               3,910,321
+app instance field points-to (SENS)                                              3,910,321
+call graph edges (INS)                                                           238,356
+call graph edges (SENS)                                                          238,356
+non-reachable app concrete methods                                               10,767
+Making database available at /home/cvrac/doop-nexgen/results/radiodroid/context-insensitive/android_25_fulljars/radiodroid-reflection
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 17 mins 43.845 secs

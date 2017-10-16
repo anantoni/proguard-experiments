@@ -1,0 +1,190 @@
+:generateGrammarSource UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+:: loading settings :: url = jar:file:/home/cvrac/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.3.0/c5ebf1c253ad4959a29f4acfe696ee48cdd9f473/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Using a timeout of 150 min.
+Starting context-insensitive analysis on ../proguard-experiments/apkfromsource/mintube.apk - id: mintube-reflection
+-- Fact Generation --
+Parsing resource file
+Found 1 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 2 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 3 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 4 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 5 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 6 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 7 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 8 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 9 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 10 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 11 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Included file: res/layout/abc_alert_dialog_button_bar_material.xml
+Found 12 layout controls in file res/layout/abc_alert_dialog_material.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 14 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 15 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 16 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 17 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 18 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 19 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 20 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 20 layout controls in file res/layout/abc_screen_content_include.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 21 layout controls in file res/layout/abc_screen_simple.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 22 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Included file: res/layout/abc_screen_content_include.xml
+Found 23 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 24 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 25 layout controls in file res/layout/abc_search_view.xml
+Found 26 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 27 layout controls in file res/layout/activity_fullscreen_web_player.xml
+Included file: res/layout/content_get_permission.xml
+Found 29 layout controls in file res/layout/activity_get_permission.xml
+Found 30 layout controls in file res/layout/activity_main.xml
+Found 31 layout controls in file res/layout/activity_rate_or_star.xml
+Included file: res/layout/content_settings.xml
+Found 33 layout controls in file res/layout/activity_settings.xml
+Included file: res/layout/content_youtube_player.xml
+Found 35 layout controls in file res/layout/activity_youtube_player.xml
+Included file: res/layout/player_view.xml
+Found 37 layout controls in file res/layout/activity_ytube_view.xml
+Found 37 layout controls in file res/layout/content_get_permission.xml
+Found 38 layout controls in file res/layout/content_main.xml
+Found 39 layout controls in file res/layout/content_main_no_internet.xml
+Found 39 layout controls in file res/layout/content_settings.xml
+Found 39 layout controls in file res/layout/content_youtube_player.xml
+Found 40 layout controls in file res/layout/controls.xml
+Found 41 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Found 42 layout controls in file res/layout/design_layout_snackbar.xml
+Found 43 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 44 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 45 layout controls in file res/layout/design_layout_tab_text.xml
+Found 46 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 47 layout controls in file res/layout/design_navigation_item.xml
+Found 48 layout controls in file res/layout/design_navigation_item_header.xml
+Found 49 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 50 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found 51 layout controls in file res/layout/design_navigation_menu.xml
+Found 52 layout controls in file res/layout/design_navigation_menu_item.xml
+Found 53 layout controls in file res/layout/no_internet_view.xml
+Found 54 layout controls in file res/layout/notification_large.xml
+Found 55 layout controls in file res/layout/notification_media_action.xml
+Found 56 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 57 layout controls in file res/layout/notification_small.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines.xml
+Included file: res/layout/notification_template_part_time.xml
+Included file: res/layout/notification_template_part_chronometer.xml
+Found 61 layout controls in file res/layout/notification_template_big_media.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Included file: res/layout/notification_template_lines.xml
+Included file: res/layout/notification_template_part_time.xml
+Included file: res/layout/notification_template_part_chronometer.xml
+Found 62 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Included file: res/layout/notification_template_part_time.xml
+Included file: res/layout/notification_template_part_chronometer.xml
+Found 62 layout controls in file res/layout/notification_template_lines.xml
+Included file: res/layout/notification_template_lines.xml
+Included file: res/layout/notification_template_part_time.xml
+Included file: res/layout/notification_template_part_chronometer.xml
+Included file: res/layout/notification_media_cancel_action.xml
+Found 63 layout controls in file res/layout/notification_template_media.xml
+Found 63 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 63 layout controls in file res/layout/notification_template_part_time.xml
+Found 63 layout controls in file res/layout/player_view.xml
+Included file: res/layout/controls.xml
+Found 64 layout controls in file res/layout/player_webview.xml
+Found 65 layout controls in file res/layout/search_suggestion_list_item.xml
+Found 66 layout controls in file res/layout/select_dialog_item_material.xml
+Found 67 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 68 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 69 layout controls in file res/layout/service_close.xml
+Found 70 layout controls in file res/layout/service_close_background.xml
+Found 71 layout controls in file res/layout/service_head.xml
+Found 72 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+application name: com.shapps.mintubeapp.CustomVolley.AppController
+package name: com.shapps.mintubeapp
+activities: [com.shapps.mintubeapp.RateOrStar, com.shapps.mintubeapp.YTubeView, com.shapps.mintubeapp.GetPermission, com.shapps.mintubeapp.SettingsActivity, com.shapps.mintubeapp.FullscreenWebPlayer, com.shapps.mintubeapp.MainActivity]
+content providers: []
+broadcast receivers: []
+services: [com.shapps.mintubeapp.PlayerService]
+callbacks: []
+Adding file: ../proguard-experiments/apkfromsource/mintube.apk
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/android.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/android-stubs-src.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/data/layoutlib.jar
+Adding archive for resolving: /home/cvrac/doop-benchmarks/Android/full/Android/Sdk/platforms/android-25/uiautomator.jar
+Android mode, APK = ../proguard-experiments/apkfromsource/mintube.apk
+Classes found in apk: 1977
+Warning: java.lang.ref.Finalizer is a phantom class!
+Total classes in Scene: 12012
+Retrieved all bodies
+Fact generation time: 29
+Caching facts in /home/cvrac/doop-nexgen/cache/7a296c9146b74595e91434e70d8525b84ce443cf4ee3eae4d2f20ea97e8e2d86
+----
+Using cached analysis executable /home/cvrac/doop-nexgen/cache/souffle-analyses
+Running analysis
+Analysis execution time (sec): 542
+-- Runtime metrics --
+analysis compilation time (sec)                                                  0
+analysis execution time (sec)                                                    542
+disk footprint (KB)                                                              38,909,910
+soot-fact-generation time (sec)                                                  29
+-- Statistics --
+var points-to (INS)                                                              82,234,614
+var points-to (SENS)                                                             82,234,614
+reachable variables (INS)                                                        393,753
+reachable variables (SENS)                                                       393,753
+reachable methods (INS)                                                          36,270
+reachable methods (SENS)                                                         36,270
+virtual call sites (statically)                                                  266,097
+reachable virtual call sites                                                     79,651
+polymorphic virtual call sites                                                   6,335
+null virtual call sites                                                          22,958
+empty virtual call sites                                                         4,100
+app virtual call sites (statically)                                              25,144
+app reachable virtual call sites                                                 10,371
+app polymorphic virtual call sites                                               878
+app null virtual call sites                                                      3,025
+app empty virtual call sites                                                     774
+array index points-to (INS)                                                      733,894
+array index points-to (SENS)                                                     733,894
+casts (statically)                                                               28,559
+reachable casts                                                                  7,101
+reachable casts that may fail                                                    5,196
+app casts (statically)                                                           3,394
+app reachable casts                                                              861
+app reachable casts that may fail                                                721
+app reachable methods                                                            5,084
+instance field points-to (INS)                                                   22,424,997
+instance field points-to (SENS)                                                  22,424,997
+var points-to (to a reflective value) (INS)                                      7,707,838
+var points-to (to a reflective value) (SENS)                                     7,707,838
+array index points-to (to a reflective value) (INS)                              67,295
+array index points-to (to a reflective value) (SENS)                             67,295
+instance field points-to (to a reflective value) (INS)                           634,763
+instance field points-to (to a reflective value) (SENS)                          634,763
+reachable 'forName' (INS)                                                        67
+reachable 'Class.newInstance' (INS)                                              41
+reachable 'Constructor.newInstance' (INS)                                        22
+static field points-to (INS)                                                     33,872
+static field points-to (SENS)                                                    33,872
+app var points-to (INS)                                                          9,179,132
+app var points-to (SENS)                                                         9,179,132
+app array index points-to (INS)                                                  10,011
+app array index points-to (SENS)                                                 10,011
+app instance field points-to (INS)                                               1,767,554
+app instance field points-to (SENS)                                              1,767,554
+call graph edges (INS)                                                           170,644
+call graph edges (SENS)                                                          170,644
+non-reachable app concrete methods                                               9,508
+Making database available at /home/cvrac/doop-nexgen/results/mintube/context-insensitive/android_25_fulljars/mintube-reflection
+Making database available at /home/cvrac/doop-nexgen/last-analysis
+
+BUILD SUCCESSFUL
+
+Total time: 9 mins 37.877 secs
