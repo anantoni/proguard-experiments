@@ -1,3 +1,12 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-dontoptimize
+-dontpreverify
+
+-dontnote
+-ignorewarnings
 -keepclassmembers class sun.misc.Unsafe { java.lang.Object getObject(java.lang.Object,long); }
 -keepclassmembers class java.io.UnixFileSystem { void <init>(); }
 -keepclassmembers class java.lang.Object { java.lang.Object clone(); }

@@ -1,3 +1,12 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-dontoptimize
+-dontpreverify
+
+-dontnote
+-ignorewarnings
 -keepclassmembers class java.security.AccessController { java.lang.Object doPrivileged(java.security.PrivilegedAction,java.security.AccessControlContext); }
 -keepclassmembers class java.lang.ThreadGroup { void <init>(); }
 -keepclassmembers class java.lang.Thread { void exit(); }

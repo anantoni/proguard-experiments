@@ -1,3 +1,12 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-dontoptimize
+-dontpreverify
+
+-dontnote
+-ignorewarnings
 -keepclassmembers class java.lang.Object { java.lang.Object clone(); }
 -keepclassmembers class java.lang.Thread { void <init>(java.lang.ThreadGroup,java.lang.String); }
 -keepclassmembers class java.lang.Thread { void exit(); }
