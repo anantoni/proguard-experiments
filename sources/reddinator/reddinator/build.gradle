@@ -29,7 +29,9 @@ android {
     buildTypes {
         debug {
             minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            proguardFiles 'doop-rules.pro'
+            proguardFiles 'doop-reflect.pro'
         }
     }
     productFlavors {

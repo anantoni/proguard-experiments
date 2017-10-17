@@ -1,3 +1,14 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+-dontpreverify
+-dontnote
+-ignorewarnings
 -keepclassmembers class java.lang.ThreadGroup { void <init>(); }
 -keepclassmembers class java.lang.Thread { void <init>(java.lang.ThreadGroup,java.lang.Runnable); }
 -keepclassmembers class java.lang.reflect.Array { java.lang.Object newInstance(java.lang.Class,int[]); }
