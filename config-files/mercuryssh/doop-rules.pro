@@ -1,3 +1,12 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-dontoptimize
+-dontpreverify
+
+-dontnote
+-ignorewarnings
 -keepclassmembers class sun.misc.Unsafe { boolean compareAndSwapObject(java.lang.Object,long,java.lang.Object,java.lang.Object); }
 -keepclassmembers class java.lang.Thread { void exit(); }
 -keepclassmembers class java.lang.Thread { void <init>(java.lang.ThreadGroup,java.lang.Runnable); }

@@ -1,3 +1,12 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-dontoptimize
+-dontpreverify
+
+-dontnote
+-ignorewarnings
 -keepclassmembers class java.lang.reflect.Array { java.lang.Object newInstance(java.lang.Class,int[]); }
 -keepclassmembers class java.lang.ThreadGroup { void <init>(); }
 -keepclassmembers class java.lang.Thread { void <init>(java.lang.ThreadGroup,java.lang.Runnable); }

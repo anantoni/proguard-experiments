@@ -1,0 +1,33 @@
+APP-BUILD               APK SIZE            MONKEY      original library classes    final library classes   original program classes        final
+calculator              2.8MB               OK          
+calculator defaultpro   1.8MB               OK          4237                        1079                    2729                            1189
+calculator doop         1.7MB               OK          4237                        1079                    2729                            1135
+calculator refl         1.8MB               OK          4237                        1079                    2729                            1338
+
+gsonexample             1.5MB               OK
+gsonexample defaultpro  804KB               OK          4590                        1068                    1717                            551
+gsonexample doop        756KB               OK          4590                        1068                    1717                            500
+gsonexample refl        833KB               OK          4590                        1068                    1717                            695
+
+mercuryssh              2.8MB               OK
+mercuryssh defaultpro   1.4MB               NOT OK      4232                        1289                    3668                            1894 
+mercuryssh defaultpro   1.7MB     noobf     NOT OK      4232                        1289                    3668                            1898
+mercuryssh doop         1.4MB               NOT OK      4232                        1289                    3668                            1900
+mercuryssh doop         1.7MB     noobf     NOT OK      4232                        1289                    3668                            1904 @subscribe issue
+mercuryssh refl         1.5MB               NOT OK      4232                        1289                    3668                            2050
+mercuryssh refl         1.8MB     noobf     OK          4232                        1289                    3668                            2054 -keep class **$$ViewBinder { *;  }
+
+mintube                 1.6MB               OK 
+mintube defaultpro      930KB               OK          3880                        1024                    1977                            1007
+mintube doop            918KB               OK          3880                        1024                    1977                            1065
+mintube refl            935KB               OK          3880                        1024                    1977                            1109
+
+radiodroid              2.7MB               OK
+radiodroid defaultpro   1.7MB               NOT OK      4237                        1217                    3229                            1918
+radiodroid doop         1.6MB               NOT OK      4237                        1217                    3229                            1979
+radiodroid refl         1.7MB               OK          4237                        1217                    3229                            2054
+
+reddinator
+reddinator defaultpro
+reddinator doop
+reddinator refl
