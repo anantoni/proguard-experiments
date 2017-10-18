@@ -4,6 +4,7 @@
 
 -dontoptimize
 -dontpreverify
+-dontobfuscate
 -dontnote
 -ignorewarnings
 -keepclassmembers class java.lang.reflect.Array { java.lang.Object newInstance(java.lang.Class,int[]); }

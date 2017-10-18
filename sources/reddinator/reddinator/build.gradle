@@ -31,7 +31,7 @@ android {
             minifyEnabled true
 //            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 //            proguardFiles 'doop-rules.pro'
-            proguardFiles 'doop-reflect.pro'
+            proguardFiles 'reddinator-rules.pro'
         }
     }
     productFlavors {
